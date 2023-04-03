@@ -1,0 +1,8 @@
+/dist
+.git/
+.vscode/
+node_modules
+package.json
+jest.config.js
+.prettierrc
+.eslintrc.json
