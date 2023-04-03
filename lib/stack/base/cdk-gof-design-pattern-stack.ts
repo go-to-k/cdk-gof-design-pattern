@@ -2,7 +2,7 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct, IConstruct } from 'constructs';
 import { ConfigStackProps } from './config';
 import { MyValidator } from './my-validator';
-import { SampleA } from '../../construct/sample-a';
+import { SampleA } from './construct/sample-a';
 
 export class CdkGoFDesignPatternStack extends cdk.Stack {
   private scopeType: string;
