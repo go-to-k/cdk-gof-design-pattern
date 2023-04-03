@@ -10,5 +10,6 @@ export class DecoratorStack extends cdk.Stack {
     
     new RemovalPolicyDestroyDecorator(this, "sqs-queue-destroy-1", new Queue(this, 'sqs-queue-1'));
     new RemovalPolicyDestroyDecorator(this, "sqs-queue-destroy-2", new Queue(this, 'sqs-queue-2'));
+    new RemovalPolicyDestroyDecorator(this, "sqs-queue-destroy-3", new Queue(this, 'sqs-queue-3'));
   }
 }
