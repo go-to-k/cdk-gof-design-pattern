@@ -1,6 +1,6 @@
 # cdk-gof-design-pattern
 
-### Composite
+## Composite
 
 ![composite_concept](./drawio/composite/composite_concept.drawio.svg)
 
