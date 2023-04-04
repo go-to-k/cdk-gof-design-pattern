@@ -7,11 +7,11 @@ export abstract class RemovalPolicyResourceDecorator extends Resource {
     constructor(scope: Construct, id: string, resource: Resource) {
         super(scope, id);
         this.resource = resource;
-        this.applyOwnRemovalPolicy();
+        this.applyRemovalPolicy(this.getOwnRemovalPolicy());
     }
 
-    private applyOwnRemovalPolicy(): void {
-        this.resource.applyRemovalPolicy(this.getOwnRemovalPolicy());
+    applyRemovalPolicy(policy: RemovalPolicy): void {
+        this.resource.applyRemovalPolicy(policy);
     }
 
     abstract getOwnRemovalPolicy(): RemovalPolicy
