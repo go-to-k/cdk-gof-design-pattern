@@ -14,5 +14,5 @@ export abstract class RemovalPolicyResourceDecorator extends Resource {
         this.resource.applyRemovalPolicy(policy);
     }
 
-    abstract getOwnRemovalPolicy(): RemovalPolicy
+    protected abstract getOwnRemovalPolicy(): RemovalPolicy
 }

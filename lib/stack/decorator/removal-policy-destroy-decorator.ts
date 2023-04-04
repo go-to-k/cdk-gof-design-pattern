@@ -1,5 +1,5 @@
 import { Construct } from "constructs";
-import { RemovalPolicyResourceDecorator } from "./decorator";
+import { RemovalPolicyResourceDecorator } from "./removal-policy-resource-decorator";
 import { RemovalPolicy, Resource } from "aws-cdk-lib";
 
 export class DestroyRemovalPolicyDecorator extends RemovalPolicyResourceDecorator {
@@ -7,7 +7,7 @@ export class DestroyRemovalPolicyDecorator extends RemovalPolicyResourceDecorato
         super(scope, id, resource);
     }
 
-    getOwnRemovalPolicy(): RemovalPolicy {
+    protected getOwnRemovalPolicy(): RemovalPolicy {
         return RemovalPolicy.DESTROY;
     }
 }
