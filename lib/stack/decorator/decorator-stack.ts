@@ -1,9 +1,9 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { DecoratorConfigStackProps } from './config';
-import { DestroyRemovalPolicyDecorator } from './removal-policy-destroy-decorator';
+import { DestroyRemovalPolicyDecorator } from './destroy-removal-policy-decorator';
 import { Queue } from 'aws-cdk-lib/aws-sqs';
-import { RetainRemovalPolicyDecorator } from './removal-policy-retain-decorator';
+import { RetainRemovalPolicyDecorator } from './retain-removal-policy-decorator';
 
 export class DecoratorStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: DecoratorConfigStackProps) {
