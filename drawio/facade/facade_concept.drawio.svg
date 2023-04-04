@@ -1,0 +1,85 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="571px" height="341px" viewBox="-0.5 -0.5 571 341" content="&lt;mxfile&gt;&lt;diagram id=&quot;9KW1ADvCEIuN-hiICIac&quot; name=&quot;concept&quot;&gt;7VnBbqMwEP0ajl0BBoccS9LuHrpS1a60ZxccsGpwZJym3a/fAQwEnDQoTapGzSnxYzxmZp7fYLDQLHv9Kcky/S1iyi3Xjl8tNLdc1/VRAD8l8lYj2PFqIJEsriGnAx7ZP6pBW6MrFtOiZ6iE4Iot+2Ak8pxGqocRKcW6b7YQvL/qkiTUAB4jwk30L4tVWqOBO+nwX5QlabOyg6f1lYw0xjqSIiWxWG9A6MZCMymEqv9lrzPKy+Q1eann3e642t6YpLkaMwHpGYV6a4KjMcSqh7nI4SdMVcZh5MDf2ry02bmi08YBBKAio0q+gYmknCj20p9HdCWS1q6dei8YeHRtzZor3/Z++PUsTRtvYve9FGIlI6onbkY99IUn04EvHAx8KSITqgxf8Gcjqg6q8rojx+hEOQaXVcCafnojVPetd9rkg6XoRf1eiN7Z0MhDw9IfTiMXDyl5Qhrp+r4QvtLB35KIxNTIfLFmGSdVxhciV00RbBgTzpIc/keQZSoBeKFSMRC2a31BiSWgUcp4fEfexKqsRaFI9NyMwlRI9g/ckqaUcFkqrdGu3bN4LGfqpSUtwOa+KbDTQnekUNomEpyTZcGeqhsuTTJIH8tDoZTIGkdilcc01qNWQKuBkuK5leSOZ1t2Thk4fX2Xaa3w+HafL54erzvtd7DG0g3dR/Zedj5AeyJ5AvG267XT9HLO2OVc3F+OcKhxThQNy4wVH6Tf1KCfQTzOhtvcLEjDQE4Xagv/MhbHpbuwWJKI5cmfko/zK6dD7qqJc9QhDzoFqCKHIoo8tYTn5Inye1EwxUTpX9a24bLckFWe/NDy5xUi1UzkcMeEVVyhwMs1Lbm5hUXBaBbpKrojixh8XIwdtKVUmFebF24SJ1VIN9i6xlbgWje+Fd5aod/YgPsNs2GNIVy1rcYzwYXspH7BOB9AuloA+EZ9K91Yp0zRR8DLpdbw5AiYgAwveLXBU6AGzQ0BOMYOn+D+lkOBWa1txfLe2eCjW6d/Nq0Te3hfuxvdOn3XGfoayuURn8AmZ5Njf2oPMhwcmGHk7/F0vPy6vqE4cOhbcWrqx+XhZPhwYujUKJ610mVU+Ts+nDTev/HTyR4a1Vv0KzyeeGZpvqoYe36wr0mNl2OEPu+s2LyJMgT5+iLIJxbk4WkR299SkM23FRdB7gvyjndzny/ICJ+NILtTQ5APPoF4riHIJzyBBGeT4+G5YWK7B2Z4eJYxPB2x4Zmvp+qGN7s0vBM3PPOc+R0bXnNXl4a3s+FNv0zDm56NGHuB8YXp4BMItk/30ROG3Ufr2rz79I9u/gM=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 255.5 100 L 84.58 305.11" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 81.22 309.14 L 83.01 301.52 L 84.58 305.11 L 88.39 306 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 290 100 L 290 223.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 290 228.88 L 286.5 221.88 L 290 223.63 L 293.5 221.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 320.5 100 L 491.42 305.11" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 494.78 309.14 L 487.61 306 L 491.42 305.11 L 492.99 301.52 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 210 90 L 210 70 L 370 70 L 370 90" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 210 90 L 210 100 L 370 100 L 370 90" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 210 90 L 370 90" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="289.5" y="87.5">
+                Facade
+            </text>
+        </g>
+        <path d="M 210 94 L 370 94" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 52px; height: 1px; padding-top: 0px; margin-left: 5px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 50px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                <h1>
+                                    概念
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="5" y="12" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    概念
+                </text>
+            </switch>
+        </g>
+        <path d="M 113.5 310 L 232.59 262.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 237.46 260.42 L 232.26 266.26 L 232.59 262.37 L 229.66 259.77 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 170 318 L 403.63 318" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 408.88 318 L 401.88 321.5 L 403.63 318 L 401.88 314.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 10 330 L 10 310 L 170 310 L 170 330" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 10 330 L 10 340 L 170 340 L 170 330" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 10 330 L 170 330" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="89.5" y="327.5">
+                ModuleB
+            </text>
+        </g>
+        <path d="M 10 334 L 170 334" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 301.5 260 L 420.59 307.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 425.46 309.58 L 417.66 310.23 L 420.59 307.63 L 420.26 303.74 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 210 250 L 210 230 L 370 230 L 370 250" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 210 250 L 210 260 L 370 260 L 370 250" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 210 250 L 370 250" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="289.5" y="247.5">
+                ModuleA
+            </text>
+        </g>
+        <path d="M 210 254 L 370 254" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 461.5 310 L 342.41 262.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 337.54 260.42 L 345.34 259.77 L 342.41 262.37 L 342.74 266.26 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 332 L 176.37 332" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 171.12 332 L 178.12 328.5 L 176.37 332 L 178.12 335.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 330 L 410 310 L 570 310 L 570 330" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 330 L 410 340 L 570 340 L 570 330" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 410 330 L 570 330" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="489.5" y="327.5">
+                ModuleC
+            </text>
+        </g>
+        <path d="M 410 334 L 570 334" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 275.5 260 L 156.41 307.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 151.54 309.58 L 156.74 303.74 L 156.41 307.63 L 159.34 310.23 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

@@ -7,7 +7,7 @@ export class CompositeStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: CompositeConfigStackProps) {
     super(scope, id, props);
     
-    const sampleA = new SampleA(this, "sampleA");
+    new SampleA(this, "sampleA");
     
     this.addRemovalPolicy(this.node.children);
   }
