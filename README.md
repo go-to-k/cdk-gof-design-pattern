@@ -17,3 +17,9 @@
 ![facade_concept](./drawio/facade/facade_concept.drawio.svg)
 
 ![facade_concrete](./drawio/facade/facade_concrete.drawio.svg)
+
+## Adapter
+
+![adapter_concept](./drawio/adapter/adapter_concept.drawio.svg)
+
+![adapter_concrete](./drawio/adapter/adapter_concrete.drawio.svg)
