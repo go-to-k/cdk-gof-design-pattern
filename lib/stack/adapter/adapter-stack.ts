@@ -9,7 +9,11 @@ export class AdapterStack extends cdk.Stack {
     super(scope, id, props);
 
     const bucketAdapter = new BucketAdapter(this, "bucket-adapter");
-    bucketAdapter.addManyToResourcePolicy(getPolicyStatements()); // getPolicyStatements部分は本当はどこかからサクッと持って来たイメージ
+
+    // 何かConstructの戻り値とか外部パタメータなどから持って来たイメージ
+    const policyStatements = getPolicyStatements();
+
+    bucketAdapter.addManyToResourcePolicy(policyStatements);
   }
 }
 
