@@ -1,26 +1,31 @@
-import * as cdk from 'aws-cdk-lib';
-import { Construct, IConstruct } from 'constructs';
-import { CompositeConfigStackProps } from './config';
-import { SampleA } from './construct/sample-a';
+import * as cdk from "aws-cdk-lib";
+import { Construct, IConstruct } from "constructs";
+import { CompositeConfigStackProps } from "./config";
+import { RetainConstruct } from "./construct/retain-construct";
+import { Queue } from "aws-cdk-lib/aws-sqs";
 
 export class CompositeStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: CompositeConfigStackProps) {
     super(scope, id, props);
-    
-    new SampleA(this, "sampleA");
-    
-    this.addRemovalPolicy(this.node.children);
+
+    // ダミー
+    new Queue(this, "OtherQueue");
+
+    // 特定コンストラクト内リソースを全部RETAINにしたり
+    const retainConstruct = new RetainConstruct(this, "RetainConstruct");
+    this.addRemovalPolicy(retainConstruct.node.children, cdk.RemovalPolicy.RETAIN);
+
+    // 開発環境などでスタック内の全リソース削除したい場合、一括指定も可
+    this.addRemovalPolicy(this.node.children, cdk.RemovalPolicy.DESTROY);
   }
 
-  private addRemovalPolicy(children: IConstruct[]) {
+  private addRemovalPolicy(children: IConstruct[], removalPolicy: cdk.RemovalPolicy) {
     children.forEach((child) => {
       if (cdk.Resource.isResource(child)) {
-        // console.log(`Resource: ${child.node.id}`);
-        child.applyRemovalPolicy(cdk.RemovalPolicy.DESTROY);
+        child.applyRemovalPolicy(removalPolicy);
       } else if (Construct.isConstruct(child)) {
-        // console.log(`Construct: ${child.node.id}`);
-        this.addRemovalPolicy(child.node.children);
+        this.addRemovalPolicy(child.node.children, removalPolicy);
       }
-    })
+    });
   }
 }
