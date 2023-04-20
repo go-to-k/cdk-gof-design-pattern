@@ -1,4 +1,3 @@
-import { Queue } from "aws-cdk-lib/aws-sqs";
 import { Construct } from "constructs";
 import { FacadeModuleA } from "./facade-module-a";
 import { FacadeModuleB } from "./facade-module-b";
