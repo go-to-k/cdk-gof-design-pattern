@@ -11,7 +11,7 @@ export class AdapterStack extends cdk.Stack {
     const policyStatements = this.createPolicyStatements();
 
     // カスタムメソッド付きバケット生成
-    const bucketAdapter = new BucketAdapter(this, "bucket-adapter");
+    const bucketAdapter = new BucketAdapter(this, "BucketAdapter");
     // 複数PolicyStatementを一括適用
     bucketAdapter.addManyToResourcePolicy(policyStatements);
   }
