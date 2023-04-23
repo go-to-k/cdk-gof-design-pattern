@@ -9,8 +9,8 @@ import { FacadeStack } from "../lib/stack/facade/facade-stack";
 import { facadeConfigStackProps } from "../lib/stack/facade/config";
 import { AdapterStack } from "../lib/stack/adapter/adapter-stack";
 import { adapterConfigStackProps } from "../lib/stack/adapter/config";
-import { TemplateMethodStack } from "../lib/template-method/template-method-stack";
-import { getTemplateMethodConfigStackProps } from "../lib/template-method/config";
+import { TemplateMethodStack } from "../lib/stack/template-method/template-method-stack";
+import { getTemplateMethodConfigStackProps } from "../lib/stack/template-method/config";
 
 const app = new cdk.App();
 
