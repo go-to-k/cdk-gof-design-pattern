@@ -12,7 +12,5 @@ export class DecoratorStack extends cdk.Stack {
     new DestroyRemovalPolicyDecorator(this, "SQSQueueDestroy1", new Queue(this, "SQSQueue1"));
     new DestroyRemovalPolicyDecorator(this, "SQSQueueDestroy2", new Queue(this, "SQSQueue2"));
     new RetainRemovalPolicyDecorator(this, "SQSQueueRetain3", new Queue(this, "SQSQueue3"));
-
-    console.log(this.node.children);
   }
 }
