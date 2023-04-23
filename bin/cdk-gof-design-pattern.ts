@@ -9,6 +9,8 @@ import { FacadeStack } from "../lib/stack/facade/facade-stack";
 import { facadeConfigStackProps } from "../lib/stack/facade/config";
 import { AdapterStack } from "../lib/stack/adapter/adapter-stack";
 import { adapterConfigStackProps } from "../lib/stack/adapter/config";
+import { TemplateMethodStack } from "../lib/template-method/template-method-stack";
+import { getTemplateMethodConfigStackProps } from "../lib/template-method/config";
 
 const app = new cdk.App();
 
@@ -16,3 +18,4 @@ new CompositeStack(app, "CompositeStack", compositeConfigStackProps);
 new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
 new FacadeStack(app, "FacadeStack", facadeConfigStackProps);
 new AdapterStack(app, "AdapterStack", adapterConfigStackProps);
+new TemplateMethodStack(app, "TemplateMethodStack", getTemplateMethodConfigStackProps("dev"));

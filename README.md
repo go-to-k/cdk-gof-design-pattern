@@ -4,42 +4,52 @@
 
 ### Composite: 概念
 
-![composite_concept](./drawio/composite/composite_concept.drawio.svg)
+![composite-concept](./drawio/composite/composite-concept.drawio.svg)
 
 ### Composite: CDK
 
-![composite_cdk](./drawio/composite/composite_cdk.drawio.svg)
+![composite-cdk](./drawio/composite/composite-cdk.drawio.svg)
 
 ### Composite: 簡略 CDK
 
-![composite_cdk_simplified](./drawio/composite/composite_cdk_simplified.drawio.svg)
+![composite-cdk-simplified](./drawio/composite/composite-cdk-simplified.drawio.svg)
 
 ## Decorator
 
 ### Decorator: 概念
 
-![decorator_concept](./drawio/decorator/decorator_concept.drawio.svg)
+![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
 
 ### Decorator: CDK
 
-![decorator_cdk](./drawio/decorator/decorator_cdk.drawio.svg)
+![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
 
 ## Facade
 
 ### Facade: 概念
 
-![facade_concept](./drawio/facade/facade_concept.drawio.svg)
+![facade-concept](./drawio/facade/facade-concept.drawio.svg)
 
 ### Facade: CDK
 
-![facade_cdk](./drawio/facade/facade_cdk.drawio.svg)
+![facade-cdk](./drawio/facade/facade-cdk.drawio.svg)
 
 ## Adapter
 
 ### Adapter: 概念
 
-![adapter_concept](./drawio/adapter/adapter_concept.drawio.svg)
+![adapter-concept](./drawio/adapter/adapter-concept.drawio.svg)
 
 ### Adapter: CDK
 
-![adapter_cdk](./drawio/adapter/adapter_cdk.drawio.svg)
+![adapter-cdk](./drawio/adapter/adapter-cdk.drawio.svg)
+
+## Template Method
+
+### Template Method: 概念
+
+![template-method-concept](./drawio/template-method/template-method-concept.drawio.svg)
+
+### Template Method: CDK
+
+![template-method-cdk](./drawio/template-method/template-method-cdk.drawio.svg)
