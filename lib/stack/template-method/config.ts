@@ -39,6 +39,6 @@ const getTemplateMethodStackConfig = (stage: Stage): TemplateMethodConfig => {
         desiredCount: 6,
       } as const;
     default:
-      throw new Error("Context value [stageEnv] is invalid.");
+      throw new Error("Context value [stage] is invalid.");
   }
 };
