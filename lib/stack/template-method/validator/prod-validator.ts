@@ -6,13 +6,13 @@ export class ProdValidator extends Validator {
     super(config);
   }
 
-  protected checkCpuThreshold(): boolean {
-    return this.config.cpu >= 4096;
+  protected checkCpuThreshold(cpu: number): boolean {
+    return cpu >= 4096;
   }
-  protected checkMemoryLimitMiBThreshold(): boolean {
-    return this.config.memoryLimitMiB >= 8192;
+  protected checkMemoryLimitMiBThreshold(memoryLimitMiB: number): boolean {
+    return memoryLimitMiB >= 8192;
   }
-  protected checkDesiredCountThreshold(): boolean {
-    return this.config.desiredCount >= 6;
+  protected checkDesiredCountThreshold(desiredCount: number): boolean {
+    return desiredCount >= 6;
   }
 }
