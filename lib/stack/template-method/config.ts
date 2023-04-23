@@ -6,14 +6,14 @@ export interface TemplateMethodConfig {
   desiredCount: number;
 }
 
+type Stage = "dev" | "prd";
+
 export interface TemplateMethodConfigStackProps extends StackProps {
-  stage: string;
+  stage: Stage;
   config: TemplateMethodConfig;
 }
 
-export const getTemplateMethodConfigStackProps = (
-  stage: string,
-): TemplateMethodConfigStackProps => {
+export const getTemplateMethodConfigStackProps = (stage: Stage): TemplateMethodConfigStackProps => {
   return {
     env: {
       region: "ap-northeast-1",
@@ -23,7 +23,7 @@ export const getTemplateMethodConfigStackProps = (
   } as const;
 };
 
-const getTemplateMethodStackConfig = (stage: string): TemplateMethodConfig => {
+const getTemplateMethodStackConfig = (stage: Stage): TemplateMethodConfig => {
   switch (stage) {
     case "dev":
       stage;
