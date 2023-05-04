@@ -53,3 +53,13 @@
 ### Template Method: CDK
 
 ![template-method-cdk](./drawio/template-method/template-method-cdk.drawio.svg)
+
+## Singleton
+
+### Singleton: 概念
+
+![singleton-concept](./drawio/singleton/singleton-concept.drawio.svg)
+
+### Singleton: CDK
+
+![singleton-cdk](./drawio/singleton/singleton-cdk.drawio.svg)
