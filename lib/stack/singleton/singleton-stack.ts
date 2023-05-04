@@ -14,7 +14,7 @@ export class SingletonStack extends cdk.Stack {
     this.createLambda("A");
     this.createLambda("B");
 
-    // 自作のSingletonFunction
+    // 自作のMySingletonFunction(NodejsFunctionを継承)
     // 何度呼んでも一つしか作られない
     this.createMyLambda("A");
     this.createMyLambda("B");
