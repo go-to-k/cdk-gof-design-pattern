@@ -1,15 +1,15 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640px" height="386px" viewBox="-0.5 -0.5 640 386" content="&lt;mxfile&gt;&lt;diagram id=&quot;9KW1ADvCEIuN-hiICIac&quot; name=&quot;cdk&quot;&gt;7Vnbcts2EP0azLQP9pAEr4+iLmmnTicTZSbPEAlJaCBCJSHLytd3QYIXCJKviuNJrQcbOAB2gd2zywWJ8Hhz96Ek2/VHkVOOPCe/Q3iCPM+NXQz/FHJokCDRwKpkeQM5PTBn36le2aI7ltNKYw0kheCSbU0wE0VBM2lgpCzF3py2FDw3gC1ZUQuYZ4Tb6FeWy3WDxl7U439Qtlq3mt0waUYWJPu2KsWu0PqQh5f1rxnekFaWPmi1JrnYDyA8RXhcCiGb1uZuTLmyrWm22ZnRbt8lLeRjFiRBs+KW8J0++5wVK06lKGa7IpNMFHqn8tBap9qzDScF9NKlKORcjzjQJ5ytCmhnoJ+WANzSUjIw7EgPSLEFNFsznt+Qg9ipXVYSrNb20rUo2XcQSzgMuQDAcCk1RzxszJirlVp1SSuY86k9uttBN6SSek4mOCfbii3qDaspG1KuWJEKKcWmFaTcR3Pd6zxUd2QpvnWUUOuXjPOx4KKsTYOzjAbg7HbmYASHOMG5NtkAd+of4LbrtDeVCendANKu/EDFhsryAFP06BX2dJzpuAvb/r5nsRto7q0HDMaxDh4dOKtOdqfuMwQaUdTo9cHuDXWu79jqwhPqvNBURziwpSCSpsr21ZCy0BgctYdqIp8hdWiR2uIwZzV/13LT0+zYty2ZOV3KE1TesDxX4tJqSzIImi+K2pMrt0du6oUT3COftQ1wzTNJJFl0scPJgvJPomJ10OFJ2cxNt4IVsjZUkKJgUiMlUKiAHRNWk4UCxfdU0fwsvSxC3kO8Lis8zLxDy4TH8ewemhkOv8e7ruPY7p1GKE7RaIymMYojNBpZDjejer9mks7BJ2p0Dw8xkwtHUa0SeBzfa8QfGdWhb4aZH9lhFp0KaucS1nYta48nf6FpiOIZShw09VE6RUl6UYOfT6OvYvAI/0SDuyey19RDsYPSdPR1fsLyU4xiF42myAu5bHJNYfgi/HenCorUaK3Uf/thr4XNWmGw30Zes6BWP0ZJgqaBCjlIFd0K1XBUu0Fiv254aru6EbaNXnGNYJS4eiidaSQdtw3cqoiVUjh5PNZIErdDUYskrfbxYD+Bsk4yU9lhBGAwmJPUqwJzz66yrBbYSe4OaD9Nnsb1J2foo+iY1b+O6xaxT9D/PNd9JzBLhthO5dj1bbKHFyF7ZJH94+FtV6DO265AX/ysehmdIic26BSFdur0TlUGbc3xS1Sgrmffq9qEyrpUqoFdC1wpknd5EUMNE5KNImuxqNS/k5HRZendsVzABrqOIghcLC2SFKIJqQGjNPRAKdzElFn1+nbVqyABa5e85vMaCmhanKiEzYo3BfeNnetA1b7eGPpu33+wHH5mLn5cKDTZ63xR/Ejqu8klMmn8ful58qXnhQ7GyeMcfIlbj2eXhVfNGzA45C6Tovzt9/co/wlR7kevGOWeXS9ZjxHkpeoVKpV/grFIkVEgxgseJu+UenVKheFrUsp7+MFBi3ykXqtDb8GFKnhTgGZMSa0NDz1dH7ueaSizln1uoqa59cLeuuBXYldm1LCw50DlDpHQHhWfNvupYrGknEh2a2q9pzj9pKg3KISDo8o0iPA1DjwfKl0n8uMjzzV71zKG7+stsYF77YN5ojBp/prV9jEjmuNbcp9V0mKLJ3+LnP5Tvclb2q/+neBlt7QwMG9p/8/vBK7nv9fMF6+ZzyXZH/6lALr9h9OGDv3XaTz9Dw==&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="624px" height="299px" viewBox="-0.5 -0.5 624 299" content="&lt;mxfile&gt;&lt;diagram id=&quot;9KW1ADvCEIuN-hiICIac&quot; name=&quot;cdk&quot;&gt;7Vnbcts2EP0azLQP9pAEr4+iLmmnTicTdSbPEAlJaCBCpSDLztd3QQIkIciy4yi2p7UebODgvnt2eUAiPN7cfajJdv1RlJSjwCvvEJ6gIAiiOIV/CrlvkSjDLbCqWdlCXg/M2Tfagr5B96ykO421kBSCS7a1wUJUFS2khZG6Fge721Lw0gK2ZEUdYF4Q7qJfWCnXLZoGSY//RtlqbVb246xtWZDi66oW+0qvhwK8bH5t84aYufRBd2tSisMAwlOEx7UQsi1t7saUK9vaZps90Nrtu6aVfMqALGpH3BK+12efs2rFqRTVbF8VkolK71TeG+vsDmzDSQW1fCkqOdctHtQJZ6sKygWsT2sAbmktGRh2pBuk2AJarBkvb8i92Ktd7iRYzdTytajZN5iWcGjyAYDmWmqOBNjqMVcj9dI13UGfT+bofgfdkJ3UfQrBOdnu2KLZsOqyIfWKVbmQUmzMRMp9tNS1zkNNRdbia0cJNX7JOB8LLurGNLgoaATONj0HLTjGGS61yQa41/wAd12nvalMSO8GkHblByo2VNb30EW3XmGseWjiDsdt/dCz2I8099YDBmMdsEQHzqqbu1vuMwQaUdTo14PdW8v5oecuF59YLojt5QgHtlRE0lzZfjekLBQGR+2hhsgPkDp2SO1wmLOGv2u56Wl27FtDZk6X8gSVN6ws1XT5bksKCJq/FLUnV36P3DQDJ7hHPmsb4IZnkkiy6GKHkwXln8SONUGHJ3XbN98KVsnGUFGOokmD1EChCnZMWEMWChQ/UEXzB+nlEPIM8bqs8Djz7g0TnsazMzSzHH7Gu77nue6dJijN0WiMpilKEzQaOQ63o/qwZpLOwSeq9QAPMZsLR1GtEnianjXiz4zqOLTDLEzcMEtOBbV3CWv7jrXHkz/QNEbpDGUemoYon6Isv6jBH06jL2LwBL+iwf0T2WsaoNRDeT76Mj9h+SlGqY9GUxTEXLa5prJ8Ef+zV4Iit0or9d992OvJZmYy2G87XzugWX6MsgxNIxVykCq6EargqXKLpGFTCNR2dSE2hX7hBsEo83VTPtNIPjYFbJZI1aJw8nSskSw1TYlBMrP6eLCfSFknm6nsMAIwGvTJmlGRvWdfWVZP2M3cHdB9mnwf1787Qx9Fx6z5XYjroRnTSXVXMmA/dMkeX4TsiUP2j/dvW4F6b1uBvvKzKglCi05x4iqD4JQyMJrjP6FA/cC9V5mEyrpUqoG9Aa4Uybu8iEHDxGSjyFotdurfycjosvT+eF7ABmsdRRD4UzokqUQbUgNGaegRKdzGlK16Q1f1KkjA2CVv+LwGAU2rE0rYVrw5uG/sXUdK+wZjqPt9/VE5/MxcfCIUulT1dFHscvEk9f3sEpk0fb/0/NCl5xkONrftxxx8iVtP4MrCq/YNGBxyX0hR//Lre5S/QpSHyQtGeeDqJecxgoJcvUKl8ncwFqkKCsT4gYfJO6VenFKxK8F/IqWCxx8ctCpH6rU61BZcKMGbAzRjatbG8FDT+tgPbEPZWvYiiVpvT+zrgh7ZGIQ6EN+cTEtPWlpv+12znxKLNeVEslv7g8AZcfpJUW8ghKMwtpRpmMbXOApCULpeEqZHnmsPo+cYvq93po2T6xDMk8RZ+9dW2ziw523t4cz7LEmLHZ78KUr69+5N3tLevxOcfaOY2Le0/+d3At/cVd8183NTcZcU3sCXAqj2H05bOvRfp/H0Xw==&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
     <defs/>
     <g>
-        <path d="M 407 176 L 407 153 L 557 153 L 557 176" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 407 176 L 407 191 L 557 191 L 557 176" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 407 176 L 557 176" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 391 89 L 391 66 L 541 66 L 541 89" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 391 89 L 391 104 L 541 104 L 541 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 391 89 L 541 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
         <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
-            <text x="481.5" y="170.5">
+            <text x="465.5" y="83.5">
                 SingletonFunction
             </text>
         </g>
-        <path d="M 407 180 L 557 180" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 391 93 L 541 93" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
         <rect x="90" y="0" width="70" height="30" fill="#ffff88" stroke="#000000" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
@@ -44,11 +44,11 @@
                 </text>
             </switch>
         </g>
-        <rect x="325" y="213" width="314" height="60" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <rect x="309" y="126" width="314" height="60" fill="#ffffff" stroke="#000000" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 312px; height: 1px; padding-top: 243px; margin-left: 326px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 312px; height: 1px; padding-top: 156px; margin-left: 310px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
                                 ※AWS提供の
@@ -60,23 +60,23 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="482" y="247" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                <text x="466" y="160" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
                     ※AWS提供のSingletonFunctionは挙動は、いわゆるSingletonパターンと同じですが、実装が違いました。
                 </text>
             </switch>
         </g>
-        <path d="M 22 310 L 22 290 L 272 290 L 272 310" fill="#ffff88" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 22 310 L 22 385 L 272 385 L 272 310" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 22 310 L 272 310" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 6 223 L 6 203 L 256 203 L 256 223" fill="#ffff88" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 6 223 L 6 298 L 256 298 L 256 223" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 6 223 L 256 223" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
         <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
-            <text x="146.5" y="307.5">
+            <text x="130.5" y="220.5">
                 MySingletonFunction
             </text>
         </g>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 240px; height: 1px; padding-top: 317px; margin-left: 28px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 240px; height: 1px; padding-top: 230px; margin-left: 12px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 15px; overflow: hidden;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
                                 <i>
@@ -88,16 +88,16 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="28" y="329" fill="#000000" font-family="Helvetica" font-size="12px">
+                <text x="12" y="242" fill="#000000" font-family="Helvetica" font-size="12px">
                     - singleton: MySingletonFunction
                 </text>
             </switch>
         </g>
-        <path d="M 22 333 L 272 333" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 6 246 L 256 246" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 240px; height: 1px; padding-top: 344px; margin-left: 28px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 240px; height: 1px; padding-top: 257px; margin-left: 12px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 15px; overflow: hidden;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
                                 - constructor()
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="28" y="356" fill="#000000" font-family="Helvetica" font-size="12px">
+                <text x="12" y="269" fill="#000000" font-family="Helvetica" font-size="12px">
                     - constructor()
                 </text>
             </switch>
@@ -113,7 +113,7 @@
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 240px; height: 1px; padding-top: 363px; margin-left: 28px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 240px; height: 1px; padding-top: 276px; margin-left: 12px;">
                         <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: left; max-height: 15px; overflow: hidden;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
                                 <u>
@@ -123,22 +123,22 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="28" y="375" fill="#000000" font-family="Helvetica" font-size="12px">
+                <text x="12" y="288" fill="#000000" font-family="Helvetica" font-size="12px">
                     + getInstance(): MySingletonFunction
                 </text>
             </switch>
         </g>
-        <path d="M 147 290 L 147 205.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 147 192.12 L 153.5 205.12 L 140.5 205.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 72 176 L 72 153 L 222 153 L 222 176" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 72 176 L 72 191 L 222 191 L 222 176" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 72 176 L 222 176" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 131 203 L 131 118.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 131 105.12 L 137.5 118.12 L 124.5 118.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 56 89 L 56 66 L 206 66 L 206 89" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 56 89 L 56 104 L 206 104 L 206 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 56 89 L 206 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
         <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
-            <text x="146.5" y="170.5">
+            <text x="130.5" y="83.5">
                 NodejsFunction
             </text>
         </g>
-        <path d="M 72 180 L 222 180" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 56 93 L 206 93" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
     </g>
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
