@@ -15,13 +15,21 @@ import { SingletonStack } from "../lib/stack/singleton/singleton-stack";
 import { singletonConfigStackProps } from "../lib/stack/singleton/config";
 import { VisitorStack } from "../lib/stack/visitor/visitor-stack";
 import { visitorConfigStackProps } from "../lib/stack/visitor/config";
+import { BucketVersioningChecker } from "../lib/stack/visitor/aspect";
 
 const app = new cdk.App();
 
 new CompositeStack(app, "CompositeStack", compositeConfigStackProps);
+
 new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
+
 new FacadeStack(app, "FacadeStack", facadeConfigStackProps);
+
 new AdapterStack(app, "AdapterStack", adapterConfigStackProps);
+
 new TemplateMethodStack(app, "TemplateMethodStack", getTemplateMethodConfigStackProps("dev"));
+
 new SingletonStack(app, "SingletonStack", singletonConfigStackProps);
-new VisitorStack(app, "VisitorStack", visitorConfigStackProps);
+
+const visitorStack = new VisitorStack(app, "VisitorStack", visitorConfigStackProps);
+cdk.Aspects.of(visitorStack).add(new BucketVersioningChecker());
