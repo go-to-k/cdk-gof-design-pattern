@@ -13,7 +13,7 @@ export class MySingletonFunction extends NodejsFunction {
     id: string,
     props: NodejsFunctionProps,
   ): MySingletonFunction {
-    if (this.singleton == undefined) {
+    if (this.singleton === undefined) {
       this.singleton = new MySingletonFunction(scope, id, props);
     }
     return this.singleton;
