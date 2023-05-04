@@ -1,15 +1,15 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="624px" height="299px" viewBox="-0.5 -0.5 624 299" content="&lt;mxfile&gt;&lt;diagram id=&quot;9KW1ADvCEIuN-hiICIac&quot; name=&quot;cdk&quot;&gt;7Vnbcts2EP0azLQP9pAEr4+iLmmnTicTdSbPEAlJaCBCpSDLztd3QQIkIciy4yi2p7UebODgvnt2eUAiPN7cfajJdv1RlJSjwCvvEJ6gIAiiOIV/CrlvkSjDLbCqWdlCXg/M2Tfagr5B96ykO421kBSCS7a1wUJUFS2khZG6Fge721Lw0gK2ZEUdYF4Q7qJfWCnXLZoGSY//RtlqbVb246xtWZDi66oW+0qvhwK8bH5t84aYufRBd2tSisMAwlOEx7UQsi1t7saUK9vaZps90Nrtu6aVfMqALGpH3BK+12efs2rFqRTVbF8VkolK71TeG+vsDmzDSQW1fCkqOdctHtQJZ6sKygWsT2sAbmktGRh2pBuk2AJarBkvb8i92Ktd7iRYzdTytajZN5iWcGjyAYDmWmqOBNjqMVcj9dI13UGfT+bofgfdkJ3UfQrBOdnu2KLZsOqyIfWKVbmQUmzMRMp9tNS1zkNNRdbia0cJNX7JOB8LLurGNLgoaATONj0HLTjGGS61yQa41/wAd12nvalMSO8GkHblByo2VNb30EW3XmGseWjiDsdt/dCz2I8099YDBmMdsEQHzqqbu1vuMwQaUdTo14PdW8v5oecuF59YLojt5QgHtlRE0lzZfjekLBQGR+2hhsgPkDp2SO1wmLOGv2u56Wl27FtDZk6X8gSVN6ws1XT5bksKCJq/FLUnV36P3DQDJ7hHPmsb4IZnkkiy6GKHkwXln8SONUGHJ3XbN98KVsnGUFGOokmD1EChCnZMWEMWChQ/UEXzB+nlEPIM8bqs8Djz7g0TnsazMzSzHH7Gu77nue6dJijN0WiMpilKEzQaOQ63o/qwZpLOwSeq9QAPMZsLR1GtEnianjXiz4zqOLTDLEzcMEtOBbV3CWv7jrXHkz/QNEbpDGUemoYon6Isv6jBH06jL2LwBL+iwf0T2WsaoNRDeT76Mj9h+SlGqY9GUxTEXLa5prJ8Ef+zV4Iit0or9d992OvJZmYy2G87XzugWX6MsgxNIxVykCq6EargqXKLpGFTCNR2dSE2hX7hBsEo83VTPtNIPjYFbJZI1aJw8nSskSw1TYlBMrP6eLCfSFknm6nsMAIwGvTJmlGRvWdfWVZP2M3cHdB9mnwf1787Qx9Fx6z5XYjroRnTSXVXMmA/dMkeX4TsiUP2j/dvW4F6b1uBvvKzKglCi05x4iqD4JQyMJrjP6FA/cC9V5mEyrpUqoG9Aa4Uybu8iEHDxGSjyFotdurfycjosvT+eF7ABmsdRRD4UzokqUQbUgNGaegRKdzGlK16Q1f1KkjA2CVv+LwGAU2rE0rYVrw5uG/sXUdK+wZjqPt9/VE5/MxcfCIUulT1dFHscvEk9f3sEpk0fb/0/NCl5xkONrftxxx8iVtP4MrCq/YNGBxyX0hR//Lre5S/QpSHyQtGeeDqJecxgoJcvUKl8ncwFqkKCsT4gYfJO6VenFKxK8F/IqWCxx8ctCpH6rU61BZcKMGbAzRjatbG8FDT+tgPbEPZWvYiiVpvT+zrgh7ZGIQ6EN+cTEtPWlpv+12znxKLNeVEslv7g8AZcfpJUW8ghKMwtpRpmMbXOApCULpeEqZHnmsPo+cYvq93po2T6xDMk8RZ+9dW2ziw523t4cz7LEmLHZ78KUr69+5N3tLevxOcfaOY2Le0/+d3At/cVd8183NTcZcU3sCXAqj2H05bOvRfp/H0Xw==&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="620px" height="313px" viewBox="-0.5 -0.5 620 313" content="&lt;mxfile&gt;&lt;diagram id=&quot;9KW1ADvCEIuN-hiICIac&quot; name=&quot;cdk&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
     <defs/>
     <g>
-        <path d="M 391 89 L 391 66 L 541 66 L 541 89" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 391 89 L 391 104 L 541 104 L 541 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 391 89 L 541 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 385.5 89 L 385.5 66 L 535.5 66 L 535.5 89" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 385.5 89 L 385.5 104 L 535.5 104 L 535.5 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 385.5 89 L 535.5 89" fill="none" stroke="#36393d" stroke-miterlimit="10" pointer-events="none"/>
         <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
-            <text x="465.5" y="83.5">
+            <text x="460" y="83.5">
                 SingletonFunction
             </text>
         </g>
-        <path d="M 391 93 L 541 93" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 385.5 93 L 535.5 93" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
         <rect x="90" y="0" width="70" height="30" fill="#ffff88" stroke="#000000" pointer-events="none"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
@@ -41,27 +41,6 @@
                 </foreignObject>
                 <text x="35" y="19" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
                     CDK提供
-                </text>
-            </switch>
-        </g>
-        <rect x="309" y="126" width="314" height="60" fill="#ffffff" stroke="#000000" pointer-events="none"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 312px; height: 1px; padding-top: 156px; margin-left: 310px;">
-                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
-                                ※AWS提供の
-                                <span style="">
-                                    SingletonFunctionは
-                                </span>
-                                挙動は、いわゆるSingletonパターンと同じですが、実装が違いました。
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="466" y="160" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    ※AWS提供のSingletonFunctionは挙動は、いわゆるSingletonパターンと同じですが、実装が違いました。
                 </text>
             </switch>
         </g>
@@ -139,6 +118,28 @@
             </text>
         </g>
         <path d="M 56 93 L 206 93" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="302" y="189.5" width="317" height="122" fill="#fff2cc" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 315px; height: 1px; padding-top: 251px; margin-left: 303px;">
+                        <div data-drawio-colors="color: #000000; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                ※AWS提供のSingletonFunctionは挙動は、いわゆるSingletonパターンと同じですが、実装がCDK色が強いため、自前で簡易実装しました。
+                                <br/>
+                                <br/>
+                                ※SingletonFunction.ensureLambdaメソッドがSingletonパターンにあたる
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="461" y="254" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ※AWS提供のSingletonFunctionは挙動は、いわゆるSingletonパターンと同じですが、実装がCDK色が強いため、自前で簡易実装しました。...
+                </text>
+            </switch>
+        </g>
+        <path d="M 460.5 189.5 L 460.5 104" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
+        <path d="M 302 250.5 L 256 250.5" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
     </g>
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
