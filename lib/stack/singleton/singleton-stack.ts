@@ -4,6 +4,7 @@ import { SingletonConfigStackProps } from "./config";
 import { Code, Runtime, SingletonFunction } from "aws-cdk-lib/aws-lambda";
 import { join } from "path";
 
+// トップディレクトリで`yarn build-singleton`してからデプロイ
 export class SingletonStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: SingletonConfigStackProps) {
     super(scope, id, props);
