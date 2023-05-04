@@ -5,7 +5,6 @@ import { Code, Runtime, SingletonFunction } from "aws-cdk-lib/aws-lambda";
 import { join } from "path";
 import { MySingletonFunction } from "./my-singleton-function";
 
-// トップディレクトリで`yarn build-singleton`してからデプロイ
 export class SingletonStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: SingletonConfigStackProps) {
     super(scope, id, props);
@@ -21,6 +20,7 @@ export class SingletonStack extends cdk.Stack {
     this.createMyLambda("B");
   }
 
+  // トップディレクトリで`yarn build-singleton`してからデプロイ
   private createLambda(suffix: string): SingletonFunction {
     return new SingletonFunction(this, `Singleton${suffix}`, {
       uuid: "ff5cb24a-ea95-11ed-a05b-0242ac120003",
