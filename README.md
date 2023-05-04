@@ -63,3 +63,17 @@
 ### Singleton: CDK
 
 ![singleton-cdk](./drawio/singleton/singleton-cdk.drawio.svg)
+
+## Visitor
+
+### Visitor: 概念
+
+![visitor-concept](./drawio/visitor/visitor-concept.drawio.svg)
+
+### Visitor: CDK
+
+![visitor-cdk](./drawio/visitor/visitor-cdk.drawio.svg)
+
+### Visitor: 簡略 CDK
+
+![visitor-cdk-simplified](./drawio/visitor/visitor-cdk-simplified.drawio.svg)
