@@ -13,11 +13,13 @@ export class SingletonStack extends cdk.Stack {
     // 何度呼んでも一つしか作られない
     this.createLambda("A");
     this.createLambda("B");
+    this.createLambda("C");
 
     // 自作のMySingletonFunction(NodejsFunctionを継承)
     // 何度呼んでも一つしか作られない
     this.createMyLambda("A");
     this.createMyLambda("B");
+    this.createMyLambda("C");
   }
 
   // トップディレクトリで`yarn build-singleton`してからデプロイ
