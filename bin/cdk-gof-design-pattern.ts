@@ -11,6 +11,8 @@ import { AdapterStack } from "../lib/stack/adapter/adapter-stack";
 import { adapterConfigStackProps } from "../lib/stack/adapter/config";
 import { TemplateMethodStack } from "../lib/stack/template-method/template-method-stack";
 import { getTemplateMethodConfigStackProps } from "../lib/stack/template-method/config";
+import { SingletonStack } from "../lib/stack/singleton/singleton-stack";
+import { singletonConfigStackProps } from "../lib/stack/singleton/config";
 
 const app = new cdk.App();
 
@@ -19,3 +21,4 @@ new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
 new FacadeStack(app, "FacadeStack", facadeConfigStackProps);
 new AdapterStack(app, "AdapterStack", adapterConfigStackProps);
 new TemplateMethodStack(app, "TemplateMethodStack", getTemplateMethodConfigStackProps("dev"));
+new SingletonStack(app, "SingletonStack", singletonConfigStackProps);
