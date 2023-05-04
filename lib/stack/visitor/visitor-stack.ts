@@ -7,7 +7,7 @@ export class VisitorStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: VisitorConfigStackProps) {
     super(scope, id, props);
 
-    const bucket = new Bucket(this, "Bucket", {
+    new Bucket(this, "Bucket", {
       versioned: true,
     });
   }
