@@ -14,16 +14,6 @@
 
 ![composite-cdk-simplified](./drawio/composite/composite-cdk-simplified.drawio.svg)
 
-## Decorator
-
-### Decorator: 概念
-
-![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
-
-### Decorator: CDK
-
-![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
-
 ## Facade
 
 ### Facade: 概念
@@ -53,6 +43,16 @@
 ### Singleton: CDK
 
 ![singleton-cdk](./drawio/singleton/singleton-cdk.drawio.svg)
+
+## Decorator
+
+### Decorator: 概念
+
+![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
+
+### Decorator: CDK
+
+![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
 
 ## Strategy
 
