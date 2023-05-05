@@ -44,16 +44,6 @@
 
 ![singleton-cdk](./drawio/singleton/singleton-cdk.drawio.svg)
 
-## Decorator
-
-### Decorator: 概念
-
-![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
-
-### Decorator: CDK
-
-![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
-
 ## Strategy
 
 ### Strategy: 概念
@@ -77,6 +67,16 @@
 ### Template Method: CDK
 
 ![template-method-cdk](./drawio/template-method/template-method-cdk.drawio.svg)
+
+## Decorator
+
+### Decorator: 概念
+
+![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
+
+### Decorator: CDK
+
+![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
 
 ## Visitor
 
