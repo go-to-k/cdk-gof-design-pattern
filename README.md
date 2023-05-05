@@ -44,16 +44,6 @@
 
 ![adapter-cdk](./drawio/adapter/adapter-cdk.drawio.svg)
 
-## Template Method
-
-### Template Method: 概念
-
-![template-method-concept](./drawio/template-method/template-method-concept.drawio.svg)
-
-### Template Method: CDK
-
-![template-method-cdk](./drawio/template-method/template-method-cdk.drawio.svg)
-
 ## Singleton
 
 ### Singleton: 概念
@@ -91,3 +81,13 @@
 ### Strategy: 簡略 CDK
 
 ![strategy-cdk-simplified](./drawio/strategy/strategy-cdk-simplified.drawio.svg)
+
+## Template Method
+
+### Template Method: 概念
+
+![template-method-concept](./drawio/template-method/template-method-concept.drawio.svg)
+
+### Template Method: CDK
+
+![template-method-cdk](./drawio/template-method/template-method-cdk.drawio.svg)
