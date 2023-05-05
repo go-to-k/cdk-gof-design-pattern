@@ -78,6 +78,16 @@
 
 ![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
 
+## Factory Method
+
+### Factory Method: 概念
+
+![factory-method-concept](./drawio/factory-method/factory-method-concept.drawio.svg)
+
+### Factory Method: CDK
+
+![factory-method-cdk](./drawio/factory-method/factory-method-cdk.drawio.svg)
+
 ## Visitor
 
 ### Visitor: 概念

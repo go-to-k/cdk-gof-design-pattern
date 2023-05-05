@@ -18,6 +18,8 @@ import { visitorConfigStackProps } from "../lib/stack/visitor/config";
 import { BucketVersioningChecker } from "../lib/stack/visitor/aspect";
 import { StrategyStack } from "../lib/stack/strategy/strategy-stack";
 import { strategyConfigStackProps } from "../lib/stack/strategy/config";
+import { FactoryMethodStack } from "../lib/stack/factory-method/factory-method-stack";
+import { factoryMethodConfigStackProps } from "../lib/stack/factory-method/config";
 
 const app = new cdk.App();
 
@@ -37,3 +39,5 @@ const visitorStack = new VisitorStack(app, "VisitorStack", visitorConfigStackPro
 cdk.Aspects.of(visitorStack).add(new BucketVersioningChecker());
 
 new StrategyStack(app, "StrategyStack", strategyConfigStackProps);
+
+new FactoryMethodStack(app, "FactoryMethodStack", factoryMethodConfigStackProps);
