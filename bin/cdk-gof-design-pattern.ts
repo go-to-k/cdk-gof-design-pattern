@@ -16,6 +16,8 @@ import { singletonConfigStackProps } from "../lib/stack/singleton/config";
 import { VisitorStack } from "../lib/stack/visitor/visitor-stack";
 import { visitorConfigStackProps } from "../lib/stack/visitor/config";
 import { BucketVersioningChecker } from "../lib/stack/visitor/aspect";
+import { StrategyStack } from "../lib/stack/strategy/strategy-stack";
+import { strategyConfigStackProps } from "../lib/stack/strategy/config";
 
 const app = new cdk.App();
 
@@ -33,3 +35,5 @@ new SingletonStack(app, "SingletonStack", singletonConfigStackProps);
 
 const visitorStack = new VisitorStack(app, "VisitorStack", visitorConfigStackProps);
 cdk.Aspects.of(visitorStack).add(new BucketVersioningChecker());
+
+new StrategyStack(app, "StrategyStack", strategyConfigStackProps);

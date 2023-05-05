@@ -77,3 +77,17 @@
 ### Visitor: 簡略 CDK
 
 ![visitor-cdk-simplified](./drawio/visitor/visitor-cdk-simplified.drawio.svg)
+
+## Strategy
+
+### Strategy: 概念
+
+![strategy-concept](./drawio/strategy/strategy-concept.drawio.svg)
+
+### Strategy: CDK
+
+![strategy-cdk](./drawio/strategy/strategy-cdk.drawio.svg)
+
+### Strategy: 簡略 CDK
+
+![strategy-cdk-simplified](./drawio/strategy/strategy-cdk-simplified.drawio.svg)
