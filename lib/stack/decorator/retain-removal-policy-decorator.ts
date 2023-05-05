@@ -3,11 +3,11 @@ import { RemovalPolicyResourceDecorator } from "./removal-policy-resource-decora
 import { RemovalPolicy, Resource } from "aws-cdk-lib";
 
 export class RetainRemovalPolicyDecorator extends RemovalPolicyResourceDecorator {
-    constructor(scope: Construct, id: string, resource: Resource) {
-        super(scope, id, resource);
-    }
+  constructor(scope: Construct, id: string, resource: Resource) {
+    super(scope, id, resource);
+  }
 
-    protected getOwnRemovalPolicy(): RemovalPolicy {
-        return RemovalPolicy.RETAIN;
-    }
+  protected getOwnRemovalPolicy(): RemovalPolicy {
+    return RemovalPolicy.RETAIN;
+  }
 }
