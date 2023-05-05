@@ -25,19 +25,19 @@ const app = new cdk.App();
 
 new CompositeStack(app, "CompositeStack", compositeConfigStackProps);
 
-new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
-
 new FacadeStack(app, "FacadeStack", facadeConfigStackProps);
 
 new AdapterStack(app, "AdapterStack", adapterConfigStackProps);
 
-new TemplateMethodStack(app, "TemplateMethodStack", getTemplateMethodConfigStackProps("dev"));
-
 new SingletonStack(app, "SingletonStack", singletonConfigStackProps);
-
-const visitorStack = new VisitorStack(app, "VisitorStack", visitorConfigStackProps);
-cdk.Aspects.of(visitorStack).add(new BucketVersioningChecker());
 
 new StrategyStack(app, "StrategyStack", strategyConfigStackProps);
 
+new TemplateMethodStack(app, "TemplateMethodStack", getTemplateMethodConfigStackProps("dev"));
+
 new FactoryMethodStack(app, "FactoryMethodStack", factoryMethodConfigStackProps);
+
+new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
+
+const visitorStack = new VisitorStack(app, "VisitorStack", visitorConfigStackProps);
+cdk.Aspects.of(visitorStack).add(new BucketVersioningChecker());
