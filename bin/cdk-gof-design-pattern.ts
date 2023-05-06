@@ -20,6 +20,8 @@ import { StrategyStack } from "../lib/stack/strategy/strategy-stack";
 import { strategyConfigStackProps } from "../lib/stack/strategy/config";
 import { FactoryMethodStack } from "../lib/stack/factory-method/factory-method-stack";
 import { factoryMethodConfigStackProps } from "../lib/stack/factory-method/config";
+import { AbstractFactoryStack } from "../lib/stack/abstract-factory/abstract-factory-stack";
+import { getAbstractFactoryConfigStackProps } from "../lib/stack/abstract-factory/config";
 
 const app = new cdk.App();
 
@@ -29,6 +31,8 @@ new FacadeStack(app, "FacadeStack", facadeConfigStackProps);
 
 new AdapterStack(app, "AdapterStack", adapterConfigStackProps);
 
+new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
+
 new SingletonStack(app, "SingletonStack", singletonConfigStackProps);
 
 new StrategyStack(app, "StrategyStack", strategyConfigStackProps);
@@ -37,7 +41,7 @@ new TemplateMethodStack(app, "TemplateMethodStack", getTemplateMethodConfigStack
 
 new FactoryMethodStack(app, "FactoryMethodStack", factoryMethodConfigStackProps);
 
-new DecoratorStack(app, "DecoratorStack", decoratorConfigStackProps);
+new AbstractFactoryStack(app, "AbstractFactoryStack", getAbstractFactoryConfigStackProps("dev"));
 
 const visitorStack = new VisitorStack(app, "VisitorStack", visitorConfigStackProps);
 cdk.Aspects.of(visitorStack).add(new BucketVersioningChecker());

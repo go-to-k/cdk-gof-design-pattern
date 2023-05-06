@@ -34,6 +34,16 @@
 
 ![adapter-cdk](./drawio/adapter/adapter-cdk.drawio.svg)
 
+## Decorator
+
+### Decorator: 概念
+
+![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
+
+### Decorator: CDK
+
+![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
+
 ## Singleton
 
 ### Singleton: 概念
@@ -78,15 +88,15 @@
 
 ![factory-method-cdk](./drawio/factory-method/factory-method-cdk.drawio.svg)
 
-## Decorator
+## Abstract Factory
 
-### Decorator: 概念
+### Abstract Factory: 概念
 
-![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
+![abstract-factory-concept](./drawio/abstract-factory/abstract-factory-concept.drawio.svg)
 
-### Decorator: CDK
+### Abstract Factory: CDK
 
-![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
+![abstract-factory-cdk](./drawio/abstract-factory/abstract-factory-cdk.drawio.svg)
 
 ## Visitor
 
