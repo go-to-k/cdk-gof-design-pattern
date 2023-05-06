@@ -1,7 +1,7 @@
 import { AbstractFactory } from "./abstract-factory";
-import { MyProduct, MyProductConstructProps } from "../product-construct/abstract-my-product";
+import { MyProduct, MyProductConstructProps } from "../product-construct/my-product";
 import { Construct } from "constructs";
-import { PrdProduct } from "../product-construct/prd-my-product";
+import { PrdProduct } from "../product-construct/prd-product";
 
 export class PrdFactory extends AbstractFactory {
   create(

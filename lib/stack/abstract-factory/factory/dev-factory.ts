@@ -1,6 +1,6 @@
 import { AbstractFactory } from "./abstract-factory";
-import { DevProduct } from "../product-construct/dev-my-product";
-import { MyProduct, MyProductConstructProps } from "../product-construct/abstract-my-product";
+import { DevProduct } from "../product-construct/dev-product";
+import { MyProduct, MyProductConstructProps } from "../product-construct/my-product";
 import { Construct } from "constructs";
 
 export class DevFactory extends AbstractFactory {
