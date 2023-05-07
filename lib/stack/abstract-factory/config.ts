@@ -4,15 +4,15 @@ export interface AbstractFactoryConfig {
   memorySize: number;
 }
 
-type Stage = "dev" | "prd";
+type StageType = "dev" | "prd";
 
 export interface AbstractFactoryConfigStackProps extends StackProps {
   config: AbstractFactoryConfig;
-  stage: Stage;
+  stage: StageType;
 }
 
 export const getAbstractFactoryConfigStackProps = (
-  stage: Stage,
+  stage: StageType,
 ): AbstractFactoryConfigStackProps => {
   return {
     env: {
@@ -23,7 +23,7 @@ export const getAbstractFactoryConfigStackProps = (
   } as const;
 };
 
-const getAbstractFactoryStackConfig = (stage: Stage): AbstractFactoryConfig => {
+const getAbstractFactoryStackConfig = (stage: StageType): AbstractFactoryConfig => {
   switch (stage) {
     case "dev":
       stage;
