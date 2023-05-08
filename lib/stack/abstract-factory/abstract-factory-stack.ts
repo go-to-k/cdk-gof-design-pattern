@@ -10,7 +10,13 @@ export class AbstractFactoryStack extends cdk.Stack {
 
     const factory = props.stage === "prd" ? new PrdFactory() : new DevFactory();
 
-    factory.create(this, "Factory", {
+    factory.createProductA(this, "ProductA", {
+      appModuleConstructProps: {
+        memorySize: props.config.memorySize,
+      },
+    });
+
+    factory.createProductB(this, "ProductB", {
       appModuleConstructProps: {
         memorySize: props.config.memorySize,
       },

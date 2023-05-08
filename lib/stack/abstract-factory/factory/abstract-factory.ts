@@ -1,10 +1,17 @@
 import { Construct } from "constructs";
-import { MyProduct, MyProductConstructProps } from "../product-construct/my-product";
+import { MyProductA, MyProductAConstructProps } from "../product-construct/my-product-a";
+import { MyProductB, MyProductBConstructProps } from "../product-construct/my-product-b";
 
 export abstract class AbstractFactory {
-  abstract create(
+  abstract createProductA(
     scope: Construct,
     id: string,
-    myProductConstructProps: MyProductConstructProps,
-  ): MyProduct;
+    myProductConstructProps: MyProductAConstructProps,
+  ): MyProductA;
+
+  abstract createProductB(
+    scope: Construct,
+    id: string,
+    myProductConstructProps: MyProductBConstructProps,
+  ): MyProductB;
 }

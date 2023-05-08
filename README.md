@@ -100,6 +100,10 @@ AWS Dev Day 2023 Tokyo での登壇セッション『**AWS CDK で学ぶ GoF デ
 
 ![abstract-factory-cdk](./drawio/abstract-factory/abstract-factory-cdk.drawio.svg)
 
+### Abstract Factory: 簡略 CDK
+
+![abstract-factory-cdk-simplified](./drawio/abstract-factory/abstract-factory-cdk-simplified.drawio.svg)
+
 ## Visitor
 
 ### Visitor: 概念

@@ -1,19 +1,19 @@
 import { CfnWebACL } from "aws-cdk-lib/aws-wafv2";
 import { Construct } from "constructs";
 
-export interface WafModuleConstructProps {}
+export interface WafModuleAConstructProps {}
 
-export class WafModule extends Construct {
-  constructor(scope: Construct, id: string, props?: WafModuleConstructProps) {
+export class WafModuleA extends Construct {
+  constructor(scope: Construct, id: string, props?: WafModuleAConstructProps) {
     super(scope, id);
 
-    new CfnWebACL(this, "WebAcl", {
-      name: "WebAcl",
+    new CfnWebACL(this, "WebAclA", {
+      name: "WebAclA",
       defaultAction: { block: {} },
       scope: "REGIONAL",
       visibilityConfig: {
         cloudWatchMetricsEnabled: false,
-        metricName: "WebAcl",
+        metricName: "WebAclA",
         sampledRequestsEnabled: false,
       },
     });

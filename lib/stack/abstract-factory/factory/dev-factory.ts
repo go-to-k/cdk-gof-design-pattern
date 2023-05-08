@@ -1,14 +1,24 @@
 import { AbstractFactory } from "./abstract-factory";
-import { DevProduct } from "../product-construct/dev-product";
-import { MyProduct, MyProductConstructProps } from "../product-construct/my-product";
+import { DevProductA } from "../product-construct/dev-product-a";
 import { Construct } from "constructs";
+import { MyProductA, MyProductAConstructProps } from "../product-construct/my-product-a";
+import { MyProductB, MyProductBConstructProps } from "../product-construct/my-product-b";
+import { DevProductB } from "../product-construct/dev-product-b";
 
 export class DevFactory extends AbstractFactory {
-  create(
+  createProductA(
     scope: Construct,
     id: string,
-    myProductConstructProps: MyProductConstructProps,
-  ): MyProduct {
-    return new DevProduct(scope, id, myProductConstructProps);
+    myProductConstructProps: MyProductAConstructProps,
+  ): MyProductA {
+    return new DevProductA(scope, id, myProductConstructProps);
+  }
+
+  createProductB(
+    scope: Construct,
+    id: string,
+    myProductConstructProps: MyProductBConstructProps,
+  ): MyProductB {
+    return new DevProductB(scope, id, myProductConstructProps);
   }
 }

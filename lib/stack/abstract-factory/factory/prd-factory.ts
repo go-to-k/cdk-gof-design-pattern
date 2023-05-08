@@ -1,14 +1,24 @@
 import { AbstractFactory } from "./abstract-factory";
-import { MyProduct, MyProductConstructProps } from "../product-construct/my-product";
 import { Construct } from "constructs";
-import { PrdProduct } from "../product-construct/prd-product";
+import { MyProductA, MyProductAConstructProps } from "../product-construct/my-product-a";
+import { MyProductB, MyProductBConstructProps } from "../product-construct/my-product-b";
+import { PrdProductA } from "../product-construct/prd-product-a";
+import { PrdProductB } from "../product-construct/prd-product-b";
 
 export class PrdFactory extends AbstractFactory {
-  create(
+  createProductA(
     scope: Construct,
     id: string,
-    myProductConstructProps: MyProductConstructProps,
-  ): MyProduct {
-    return new PrdProduct(scope, id, myProductConstructProps);
+    myProductConstructProps: MyProductAConstructProps,
+  ): MyProductA {
+    return new PrdProductA(scope, id, myProductConstructProps);
+  }
+
+  createProductB(
+    scope: Construct,
+    id: string,
+    myProductConstructProps: MyProductBConstructProps,
+  ): MyProductB {
+    return new PrdProductB(scope, id, myProductConstructProps);
   }
 }

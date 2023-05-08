@@ -2,15 +2,15 @@ import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
 import { Construct } from "constructs";
 import { join } from "path";
 
-export interface AppModuleConstructProps {
+export interface AppModuleAConstructProps {
   memorySize: number;
 }
 
-export class AppModule extends Construct {
-  constructor(scope: Construct, id: string, props: AppModuleConstructProps) {
+export class AppModuleA extends Construct {
+  constructor(scope: Construct, id: string, props: AppModuleAConstructProps) {
     super(scope, id);
 
-    new NodejsFunction(this, "AppFunction1", {
+    new NodejsFunction(this, "AppFunctionA1", {
       entry: join(__dirname, "../lambda/app.ts"),
       bundling: {
         forceDockerBundling: false,
@@ -18,7 +18,7 @@ export class AppModule extends Construct {
       memorySize: props.memorySize,
     });
 
-    new NodejsFunction(this, "AppFunction2", {
+    new NodejsFunction(this, "AppFunctionA2", {
       entry: join(__dirname, "../lambda/app.ts"),
       bundling: {
         forceDockerBundling: false,
