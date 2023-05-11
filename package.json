@@ -1,8 +1,8 @@
 {
-  "name": "cdk-add-validation",
+  "name": "cdk-gof-design-pattern",
   "version": "0.1.0",
   "bin": {
-    "cdk-add-validation": "bin/cdk-add-validation.js"
+    "cdk-gof-design-pattern": "bin/cdk-gof-design-pattern.js"
   },
   "scripts": {
     "build": "tsc",
