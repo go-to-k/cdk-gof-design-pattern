@@ -46,6 +46,10 @@ AWS Dev Day 2023 Tokyo での登壇セッション『**AWS CDK で学ぶ GoF デ
 
 ![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
 
+### Decorator: 簡略 CDK
+
+![decorator-cdk](./drawio/decorator/decorator-cdk-simplified.drawio.svg)
+
 ## Singleton
 
 ### Singleton: 概念
