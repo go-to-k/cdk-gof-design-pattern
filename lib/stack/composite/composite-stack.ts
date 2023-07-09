@@ -8,15 +8,15 @@ export class CompositeStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: CompositeConfigStackProps) {
     super(scope, id, props);
 
-    // ダミー
+    // Dummy
     new Queue(this, "OtherQueue");
 
-    // 特定コンストラクト内リソースを全部RETAINにしたり
+    // Ex.1) Can delete all resources in a stack in a development environment, etc.
+    this.addRemovalPolicy(this.node.children, cdk.RemovalPolicy.DESTROY);
+
+    // Ex.2) RETAIN all resources in a specific construct.
     const retainConstruct = new RetainConstruct(this, "RetainConstruct");
     this.addRemovalPolicy(retainConstruct.node.children, cdk.RemovalPolicy.RETAIN);
-
-    // 開発環境などでスタック内の全リソース削除したい場合、一括指定も可
-    this.addRemovalPolicy(this.node.children, cdk.RemovalPolicy.DESTROY);
   }
 
   private addRemovalPolicy(children: IConstruct[], removalPolicy: cdk.RemovalPolicy) {
