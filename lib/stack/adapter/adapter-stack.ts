@@ -8,13 +8,13 @@ export class AdapterStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: AdapterConfigStackProps) {
     super(scope, id, props);
 
-    // カスタムメソッド付きバケット生成
+    // Create Bucket with custom methods
     const bucketAdapter = new BucketAdapter(this, "BucketAdapter");
 
-    // 複数のPolicyStatement生成
+    // Create Some PolicyStatements
     const policyStatements = this.createPolicyStatements(bucketAdapter.bucketArn);
 
-    // 複数PolicyStatementを一括適用
+    // Apply multiple PolicyStatements at once
     bucketAdapter.addManyToResourcePolicy(policyStatements);
   }
 
