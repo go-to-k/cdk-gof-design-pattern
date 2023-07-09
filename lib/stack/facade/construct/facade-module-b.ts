@@ -7,11 +7,11 @@ export class FacadeModuleB extends Construct {
   constructor(scope: Construct, id: string, props?: FacadeModuleBConstructProps) {
     super(scope, id);
 
-    // 複雑で多いリソース定義という想定
+    // Assumptions of complex and numerous resource definitions
     new Queue(this, `${id}SQSQueue1`);
     new Queue(this, `${id}SQSQueue2`);
 
-    // FacadeAも呼んだり
+    // FacadeA can also be called
     new FacadeModuleA(this, "FacadeBA");
   }
 }
