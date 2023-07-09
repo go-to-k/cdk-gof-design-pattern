@@ -1,12 +1,10 @@
 # cdk-gof-design-pattern
 
-This repository is about **AWS CDK with Gof Design patterns**, including class diagrams and CDK codes.
-
-The following in Japanese, [Japanese README](./ja/README.md).
+AWS Dev Day 2023 Tokyo での登壇セッション『**AWS CDK で学ぶ GoF デザインパターン 〜IaC にもコード設計〜**』の CDK コード実例とクラス図集です。
 
 ## Composite
 
-### Composite: Concept
+### Composite: 概念
 
 ![composite-concept](./drawio/composite/composite-concept.drawio.svg)
 
@@ -14,13 +12,13 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ![composite-cdk](./drawio/composite/composite-cdk.drawio.svg)
 
-### Composite: Simplified CDK
+### Composite: 簡略 CDK
 
 ![composite-cdk-simplified](./drawio/composite/composite-cdk-simplified.drawio.svg)
 
 ## Facade
 
-### Facade: Concept
+### Facade: 概念
 
 ![facade-concept](./drawio/facade/facade-concept.drawio.svg)
 
@@ -30,7 +28,7 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ## Adapter
 
-### Adapter: Concept
+### Adapter: 概念
 
 ![adapter-concept](./drawio/adapter/adapter-concept.drawio.svg)
 
@@ -40,7 +38,7 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ## Decorator
 
-### Decorator: Concept
+### Decorator: 概念
 
 ![decorator-concept](./drawio/decorator/decorator-concept.drawio.svg)
 
@@ -48,13 +46,13 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ![decorator-cdk](./drawio/decorator/decorator-cdk.drawio.svg)
 
-### Decorator: Simplified CDK
+### Decorator: 簡略 CDK
 
 ![decorator-cdk](./drawio/decorator/decorator-cdk-simplified.drawio.svg)
 
 ## Singleton
 
-### Singleton: Concept
+### Singleton: 概念
 
 ![singleton-concept](./drawio/singleton/singleton-concept.drawio.svg)
 
@@ -64,7 +62,7 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ## Strategy
 
-### Strategy: Concept
+### Strategy: 概念
 
 ![strategy-concept](./drawio/strategy/strategy-concept.drawio.svg)
 
@@ -72,13 +70,13 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ![strategy-cdk](./drawio/strategy/strategy-cdk.drawio.svg)
 
-### Strategy: Simplified CDK
+### Strategy: 簡略 CDK
 
 ![strategy-cdk-simplified](./drawio/strategy/strategy-cdk-simplified.drawio.svg)
 
 ## Template Method
 
-### Template Method: Concept
+### Template Method: 概念
 
 ![template-method-concept](./drawio/template-method/template-method-concept.drawio.svg)
 
@@ -88,7 +86,7 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ## Factory Method
 
-### Factory Method: Concept
+### Factory Method: 概念
 
 ![factory-method-concept](./drawio/factory-method/factory-method-concept.drawio.svg)
 
@@ -98,7 +96,7 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ## Abstract Factory
 
-### Abstract Factory: Concept
+### Abstract Factory: 概念
 
 ![abstract-factory-concept](./drawio/abstract-factory/abstract-factory-concept.drawio.svg)
 
@@ -106,13 +104,13 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ![abstract-factory-cdk](./drawio/abstract-factory/abstract-factory-cdk.drawio.svg)
 
-### Abstract Factory: Simplified CDK
+### Abstract Factory: 簡略 CDK
 
 ![abstract-factory-cdk-simplified](./drawio/abstract-factory/abstract-factory-cdk-simplified.drawio.svg)
 
 ## Visitor
 
-### Visitor: Concept
+### Visitor: 概念
 
 ![visitor-concept](./drawio/visitor/visitor-concept.drawio.svg)
 
@@ -120,6 +118,6 @@ The following in Japanese, [Japanese README](./ja/README.md).
 
 ![visitor-cdk](./drawio/visitor/visitor-cdk.drawio.svg)
 
-### Visitor: Simplified CDK
+### Visitor: 簡略 CDK
 
 ![visitor-cdk-simplified](./drawio/visitor/visitor-cdk-simplified.drawio.svg)
