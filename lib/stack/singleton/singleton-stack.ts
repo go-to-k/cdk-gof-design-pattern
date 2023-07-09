@@ -9,20 +9,20 @@ export class SingletonStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: SingletonConfigStackProps) {
     super(scope, id, props);
 
-    // AWS提供のSingletonFunction
-    // 何度呼んでも一つしか作られない
+    // SingletonFunction provided by AWS
+    // No matter how many times you call it, they only make one.
     this.createLambda("A");
     this.createLambda("B");
     this.createLambda("C");
 
-    // 自作のMySingletonFunction(NodejsFunctionを継承)
-    // 何度呼んでも一つしか作られない
+    // MySingletonFunction of my own creation (inherits from NodejsFunction)
+    // No matter how many times you call it, they only make one.
     this.createMyLambda("A");
     this.createMyLambda("B");
     this.createMyLambda("C");
   }
 
-  // トップディレクトリで`yarn build-singleton`してからデプロイ
+  // Deploy after `yarn build-singleton` in repository's root directory
   private createLambda(suffix: string): SingletonFunction {
     return new SingletonFunction(this, `Singleton${suffix}`, {
       uuid: "ff5cb24a-ea95-11ed-a05b-0242ac120003",
