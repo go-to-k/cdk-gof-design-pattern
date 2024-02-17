@@ -1,6 +1,6 @@
 # cdk-gof-design-pattern
 
-This repository is about **AWS CDK with Gof Design patterns**, including class diagrams and CDK codes.
+This repository is about **AWS CDK with Gof Design patterns**, including class diagrams and CDK code.
 
 The following in Japanese, [Japanese README](./ja/README.md).
 
