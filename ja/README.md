@@ -2,6 +2,13 @@
 
 AWS Dev Day 2023 Tokyo での登壇セッション『**AWS CDK で学ぶ GoF デザインパターン 〜IaC にもコード設計〜**』の CDK コード実例とクラス図集です。
 
+※以下リンクからセッションの動画や登壇資料をご覧いただけます。
+
+- [YouTube](https://www.youtube.com/watch?v=Gi0m08NuLJw)
+- [登壇資料](https://speakerdeck.com/gotok365/aws-dev-day-cdk-gof-design-patterns)
+- その他参考
+  - ブログ記事: [AWS CDK 内部実装で使われている GoF デザインパターン](https://go-to-k.hatenablog.com/entry/aws-cdk-internal-gof-paterns)
+
 ## Composite
 
 ### Composite: 概念
