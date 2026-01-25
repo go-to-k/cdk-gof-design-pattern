@@ -1,4 +1,4 @@
-import { StackProps } from "aws-cdk-lib";
+import { StackProps } from 'aws-cdk-lib';
 
 export interface StrategyConfig {
   scopeType: string;
@@ -10,10 +10,10 @@ export interface StrategyConfigStackProps extends StackProps {
 
 export const strategyConfigStackProps: StrategyConfigStackProps = {
   env: {
-    region: "ap-northeast-1",
+    region: 'ap-northeast-1',
   },
   config: {
-    scopeType: "REGIONAL",
+    scopeType: 'REGIONAL',
     // scopeType: "CLOUDFRONT",
   },
 };

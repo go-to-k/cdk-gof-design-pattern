@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "ignorePatterns": [
+    "/dist",
+    ".git/",
+    ".vscode/",
+    "node_modules",
+    "package.json",
+    "jest.config.js",
+    ".prettierrc",
+    ".eslintrc.json"
+  ]
+}

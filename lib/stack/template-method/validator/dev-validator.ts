@@ -1,5 +1,5 @@
-import { TemplateMethodConfig } from "../config";
-import { Validator } from "./validator";
+import { TemplateMethodConfig } from '../config';
+import { Validator } from './validator';
 
 export class DevValidator extends Validator {
   constructor(config: TemplateMethodConfig) {

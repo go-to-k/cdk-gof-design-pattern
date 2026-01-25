@@ -1,4 +1,4 @@
-import { StackProps } from "aws-cdk-lib";
+import { StackProps } from 'aws-cdk-lib';
 
 export interface SingletonConfig {}
 
@@ -8,7 +8,7 @@ export interface SingletonConfigStackProps extends StackProps {
 
 export const singletonConfigStackProps: SingletonConfigStackProps = {
   env: {
-    region: "ap-northeast-1",
+    region: 'ap-northeast-1',
   },
   config: {},
 };

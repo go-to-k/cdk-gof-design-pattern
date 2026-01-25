@@ -1,4 +1,4 @@
-import { StackProps } from "aws-cdk-lib";
+import { StackProps } from 'aws-cdk-lib';
 
 export interface FactoryMethodConfig {}
 
@@ -8,7 +8,7 @@ export interface FactoryMethodConfigStackProps extends StackProps {
 
 export const factoryMethodConfigStackProps: FactoryMethodConfigStackProps = {
   env: {
-    region: "ap-northeast-1",
+    region: 'ap-northeast-1',
   },
   config: {},
 };

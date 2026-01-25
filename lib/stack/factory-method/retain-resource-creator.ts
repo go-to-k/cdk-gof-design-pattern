@@ -1,5 +1,5 @@
-import { RemovalPolicy, Resource } from "aws-cdk-lib";
-import { Construct } from "constructs";
+import { RemovalPolicy, Resource } from 'aws-cdk-lib';
+import { Construct } from 'constructs';
 
 export abstract class RetainResourceCreator {
   create(scope: Construct, id: string): Resource {

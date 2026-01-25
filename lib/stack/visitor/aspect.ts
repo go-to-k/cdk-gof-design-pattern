@@ -1,6 +1,6 @@
-import { Annotations, IAspect, Tokenization } from "aws-cdk-lib";
-import { CfnBucket } from "aws-cdk-lib/aws-s3";
-import { IConstruct } from "constructs";
+import { Annotations, IAspect, Tokenization } from 'aws-cdk-lib';
+import { CfnBucket } from 'aws-cdk-lib/aws-s3';
+import { IConstruct } from 'constructs';
 
 // From the official page: https://docs.aws.amazon.com/cdk/v2/guide/aspects.html
 export class BucketVersioningChecker implements IAspect {
@@ -12,9 +12,9 @@ export class BucketVersioningChecker implements IAspect {
       if (
         !node.versioningConfiguration ||
         (!Tokenization.isResolvable(node.versioningConfiguration) &&
-          node.versioningConfiguration.status !== "Enabled")
+          node.versioningConfiguration.status !== 'Enabled')
       ) {
-        Annotations.of(node).addError("Bucket versioning is not enabled");
+        Annotations.of(node).addError('Bucket versioning is not enabled');
       }
     }
   }

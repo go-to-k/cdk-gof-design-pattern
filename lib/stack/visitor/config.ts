@@ -1,4 +1,4 @@
-import { StackProps } from "aws-cdk-lib";
+import { StackProps } from 'aws-cdk-lib';
 
 export interface VisitorConfig {}
 
@@ -8,7 +8,7 @@ export interface VisitorConfigStackProps extends StackProps {
 
 export const visitorConfigStackProps: VisitorConfigStackProps = {
   env: {
-    region: "ap-northeast-1",
+    region: 'ap-northeast-1',
   },
   config: {},
 };

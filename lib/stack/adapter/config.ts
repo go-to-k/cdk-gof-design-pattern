@@ -1,4 +1,4 @@
-import { StackProps } from "aws-cdk-lib";
+import { StackProps } from 'aws-cdk-lib';
 
 export interface AdapterConfig {}
 
@@ -8,7 +8,7 @@ export interface AdapterConfigStackProps extends StackProps {
 
 export const adapterConfigStackProps: AdapterConfigStackProps = {
   env: {
-    region: "ap-northeast-1",
+    region: 'ap-northeast-1',
   },
   config: {},
 };

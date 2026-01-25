@@ -1,6 +1,6 @@
-import { Queue } from "aws-cdk-lib/aws-sqs";
-import { Construct } from "constructs";
-import { FacadeModuleA } from "./facade-module-a";
+import { Queue } from 'aws-cdk-lib/aws-sqs';
+import { Construct } from 'constructs';
+import { FacadeModuleA } from './facade-module-a';
 
 export interface FacadeModuleBConstructProps {}
 export class FacadeModuleB extends Construct {
@@ -12,6 +12,6 @@ export class FacadeModuleB extends Construct {
     new Queue(this, `${id}SQSQueue2`);
 
     // FacadeA can also be called
-    new FacadeModuleA(this, "FacadeBA");
+    new FacadeModuleA(this, 'FacadeBA');
   }
 }
