@@ -2,7 +2,7 @@
   "name": "cdk-gof-design-pattern",
   "version": "0.1.0",
   "bin": {
-    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.js"
+    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.mjs"
   },
   "type": "module",
   "scripts": {
