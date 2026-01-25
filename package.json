@@ -2,8 +2,9 @@
   "name": "cdk-gof-design-pattern",
   "version": "0.1.0",
   "bin": {
-    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.cjs"
+    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.js"
   },
+  "type": "module",
   "scripts": {
     "build": "tsdown",
     "watch": "tsgo --watch",

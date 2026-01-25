@@ -4,7 +4,7 @@ export default defineConfig([
   {
     name: "bin",
     entry: ["bin/cdk-gof-design-pattern.ts"],
-    format: "cjs",
+    format: "esm",
     outDir: "dist/bin",
     clean: true,
     sourcemap: true,
@@ -15,7 +15,7 @@ export default defineConfig([
   {
     name: "lib",
     entry: ["lib/**/*.ts", "!lib/**/*.d.ts"],
-    format: "cjs",
+    format: "esm",
     outDir: "dist",
     clean: true,
     sourcemap: true,
@@ -26,7 +26,7 @@ export default defineConfig([
   {
     name: "singleton",
     entry: ["lib/stack/singleton/lambda/index.ts"],
-    format: "cjs",
+    format: "esm",
     outDir: "lib/stack/singleton/lambda/dist",
     clean: true,
     platform: "node",
