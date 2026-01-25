@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsdown",
     "watch": "tsgo --watch",
-    "typecheck": "tsgo",
+    "check": "tsgo",
     "test": "vitest",
     "lint": "oxlint --type-aware",
     "fmt": "oxfmt",
