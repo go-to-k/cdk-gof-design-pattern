@@ -26,7 +26,6 @@ export const getAbstractFactoryConfigStackProps = (
 const getAbstractFactoryStackConfig = (stage: StageType): AbstractFactoryConfig => {
   switch (stage) {
     case 'dev':
-      stage;
       return {
         memorySize: 128,
       } as const;

@@ -6,14 +6,14 @@
   },
   "packageManager": "pnpm@10.28.1",
   "bin": {
-    "cdk-gof-design-pattern": "bin/cdk-gof-design-pattern.js"
+    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.js"
   },
   "scripts": {
     "build": "tsdown",
     "watch": "tsgo --watch",
     "typecheck": "tsgo",
     "test": "vitest",
-    "lint": "oxlint",
+    "lint": "oxlint --type-aware",
     "fmt": "oxfmt",
     "cdk": "cdk",
     "build-singleton": "tsdown ./lib/stack/singleton/lambda/index.ts --outDir=./lib/stack/singleton/lambda --platform=node --external=aws-sdk"
@@ -30,6 +30,7 @@
     "aws-cdk": "2.60.0",
     "oxfmt": "^0.26.0",
     "oxlint": "^1.41.0",
+    "oxlint-tsgolint": "^0.11.1",
     "tsdown": "^0.20.1",
     "vitest": "^4"
   }

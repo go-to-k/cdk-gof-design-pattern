@@ -4,7 +4,7 @@ import { FacadeModuleB } from './facade-module-b';
 
 export interface FacadeConstructProps {}
 export class Facade extends Construct {
-  constructor(scope: Construct, id: string, props?: FacadeConstructProps) {
+  constructor(scope: Construct, id: string, _props?: FacadeConstructProps) {
     super(scope, id);
 
     new FacadeModuleA(this, 'FacadeModuleA');

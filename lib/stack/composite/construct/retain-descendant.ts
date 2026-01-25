@@ -4,7 +4,7 @@ import { Construct } from 'constructs';
 export interface RetainDescendantProps {}
 
 export class RetainDescendant extends Construct {
-  constructor(scope: Construct, id: string, props?: RetainDescendantProps) {
+  constructor(scope: Construct, id: string, _props?: RetainDescendantProps) {
     super(scope, id);
     new Queue(this, 'DescendantQueue');
   }

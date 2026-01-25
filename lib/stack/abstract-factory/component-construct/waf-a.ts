@@ -4,7 +4,7 @@ import { Construct } from 'constructs';
 export interface WafModuleAConstructProps {}
 
 export class WafModuleA extends Construct {
-  constructor(scope: Construct, id: string, props?: WafModuleAConstructProps) {
+  constructor(scope: Construct, id: string, _props?: WafModuleAConstructProps) {
     super(scope, id);
 
     new CfnWebACL(this, 'WebAclA', {
