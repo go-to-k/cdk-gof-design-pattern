@@ -1,6 +1,6 @@
-import { Construct } from 'constructs';
-import { RemovalPolicyResourceDecorator } from './removal-policy-resource-decorator';
-import { RemovalPolicy, Resource } from 'aws-cdk-lib';
+import { Construct } from "constructs";
+import { RemovalPolicyResourceDecorator } from "./removal-policy-resource-decorator";
+import { RemovalPolicy, Resource } from "aws-cdk-lib";
 
 export class DestroyRemovalPolicyDecorator extends RemovalPolicyResourceDecorator {
   constructor(scope: Construct, id: string, resource: Resource) {

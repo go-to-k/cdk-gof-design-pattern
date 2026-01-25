@@ -1,4 +1,4 @@
-import { StackProps } from 'aws-cdk-lib';
+import { StackProps } from "aws-cdk-lib";
 
 export interface TemplateMethodConfig {
   cpu: number;
@@ -6,7 +6,7 @@ export interface TemplateMethodConfig {
   desiredCount: number;
 }
 
-type StageType = 'dev' | 'prd';
+type StageType = "dev" | "prd";
 
 export interface TemplateMethodConfigStackProps extends StackProps {
   stage: StageType;
@@ -18,7 +18,7 @@ export const getTemplateMethodConfigStackProps = (
 ): TemplateMethodConfigStackProps => {
   return {
     env: {
-      region: 'ap-northeast-1',
+      region: "ap-northeast-1",
     },
     stage: stage,
     config: getTemplateMethodStackConfig(stage),
@@ -27,19 +27,19 @@ export const getTemplateMethodConfigStackProps = (
 
 const getTemplateMethodStackConfig = (stage: StageType): TemplateMethodConfig => {
   switch (stage) {
-    case 'dev':
+    case "dev":
       return {
         cpu: 1024,
         memoryLimitMiB: 2048,
         desiredCount: 2,
       } as const;
-    case 'prd':
+    case "prd":
       return {
         cpu: 4096,
         memoryLimitMiB: 8192,
         desiredCount: 6,
       } as const;
     default:
-      throw new Error('Context value [stage] is invalid.');
+      throw new Error("Context value [stage] is invalid.");
   }
 };

@@ -1,5 +1,5 @@
-import { IValidation } from 'constructs';
-import { TemplateMethodConfig } from '../config';
+import { IValidation } from "constructs";
+import { TemplateMethodConfig } from "../config";
 
 export abstract class Validator implements IValidation {
   protected config: TemplateMethodConfig;
@@ -12,13 +12,13 @@ export abstract class Validator implements IValidation {
     const errors: string[] = [];
 
     if (!this.checkCpuThreshold(this.config.cpu)) {
-      errors.push('CPU is invalid.');
+      errors.push("CPU is invalid.");
     }
     if (!this.checkMemoryLimitMiBThreshold(this.config.memoryLimitMiB)) {
-      errors.push('Memory is invalid.');
+      errors.push("Memory is invalid.");
     }
     if (!this.checkDesiredCountThreshold(this.config.desiredCount)) {
-      errors.push('DesiredCount is invalid.');
+      errors.push("DesiredCount is invalid.");
     }
 
     return errors;

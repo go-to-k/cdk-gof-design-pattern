@@ -1,10 +1,10 @@
-import { StackProps } from 'aws-cdk-lib';
+import { StackProps } from "aws-cdk-lib";
 
 export interface AbstractFactoryConfig {
   memorySize: number;
 }
 
-type StageType = 'dev' | 'prd';
+type StageType = "dev" | "prd";
 
 export interface AbstractFactoryConfigStackProps extends StackProps {
   config: AbstractFactoryConfig;
@@ -16,7 +16,7 @@ export const getAbstractFactoryConfigStackProps = (
 ): AbstractFactoryConfigStackProps => {
   return {
     env: {
-      region: 'ap-northeast-1',
+      region: "ap-northeast-1",
     },
     stage: stage,
     config: getAbstractFactoryStackConfig(stage),
@@ -25,15 +25,15 @@ export const getAbstractFactoryConfigStackProps = (
 
 const getAbstractFactoryStackConfig = (stage: StageType): AbstractFactoryConfig => {
   switch (stage) {
-    case 'dev':
+    case "dev":
       return {
         memorySize: 128,
       } as const;
-    case 'prd':
+    case "prd":
       return {
         memorySize: 256,
       } as const;
     default:
-      throw new Error('Context value [stage] is invalid.');
+      throw new Error("Context value [stage] is invalid.");
   }
 };
