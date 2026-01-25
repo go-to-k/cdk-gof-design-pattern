@@ -2,7 +2,7 @@
   "name": "cdk-gof-design-pattern",
   "version": "0.1.0",
   "bin": {
-    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.js"
+    "cdk-gof-design-pattern": "dist/bin/cdk-gof-design-pattern.cjs"
   },
   "scripts": {
     "build": "tsdown",
@@ -12,7 +12,7 @@
     "lint": "oxlint --type-aware",
     "fmt": "oxfmt",
     "cdk": "cdk",
-    "build-singleton": "tsdown ./lib/stack/singleton/lambda/index.ts --outDir=./lib/stack/singleton/lambda --platform=node --external=aws-sdk"
+    "build:singleton": "tsdown --filter singleton"
   },
   "dependencies": {
     "aws-cdk-lib": "2.60.0",
