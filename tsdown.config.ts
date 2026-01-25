@@ -14,7 +14,7 @@ export default defineConfig([
   },
   {
     name: 'lib',
-    entry: ['lib/**/*.ts'],
+    entry: ['lib/**/*.ts', '!lib/**/*.d.ts'],
     format: 'cjs',
     outDir: 'dist',
     clean: true,
