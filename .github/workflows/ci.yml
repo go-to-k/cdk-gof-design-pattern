@@ -37,3 +37,6 @@ jobs:
 
       - name: Build
         run: pnpm build
+
+      - name: CDK Synth
+        run: pnpm cdk synth
