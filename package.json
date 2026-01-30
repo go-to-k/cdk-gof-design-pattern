@@ -17,8 +17,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "catalog:",
-    "constructs": "catalog:",
-    "source-map-support": "catalog:"
+    "constructs": "catalog:"
   },
   "devDependencies": {
     "@types/aws-lambda": "catalog:",

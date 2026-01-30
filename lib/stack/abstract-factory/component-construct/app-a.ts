@@ -11,7 +11,7 @@ export class AppModuleA extends Construct {
     super(scope, id);
 
     new NodejsFunction(this, "AppFunctionA1", {
-      entry: join(__dirname, "../lambda/app.ts"),
+      entry: join(import.meta.dirname, "../lambda/app.ts"),
       bundling: {
         forceDockerBundling: false,
       },
@@ -19,7 +19,7 @@ export class AppModuleA extends Construct {
     });
 
     new NodejsFunction(this, "AppFunctionA2", {
-      entry: join(__dirname, "../lambda/app.ts"),
+      entry: join(import.meta.dirname, "../lambda/app.ts"),
       bundling: {
         forceDockerBundling: false,
       },
