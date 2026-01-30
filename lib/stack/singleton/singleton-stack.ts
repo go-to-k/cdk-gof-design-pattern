@@ -22,7 +22,7 @@ export class SingletonStack extends cdk.Stack {
     this.createMyLambda("C");
   }
 
-  // Deploy after `yarn build-singleton` in repository's root directory
+  // Deploy after `pnpm build-singleton` in repository's root directory
   private createLambda(suffix: string): SingletonFunction {
     return new SingletonFunction(this, `Singleton${suffix}`, {
       uuid: "ff5cb24a-ea95-11ed-a05b-0242ac120003",
