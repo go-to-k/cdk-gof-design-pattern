@@ -1,6 +1,6 @@
 import { Construct } from "constructs";
 import { Resource } from "aws-cdk-lib";
-import { RetainResourceCreator } from "./retain-resource-creator";
+import { RetainResourceCreator } from "./retain-resource-creator.ts";
 import { Queue } from "aws-cdk-lib/aws-sqs";
 
 export class RetainQueueCreator extends RetainResourceCreator {

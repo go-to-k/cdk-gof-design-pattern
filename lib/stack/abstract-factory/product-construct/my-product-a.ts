@@ -1,5 +1,5 @@
 import { Construct } from "constructs";
-import { AppModuleAConstructProps } from "../component-construct/app-a";
+import type { AppModuleAConstructProps } from "../component-construct/app-a.ts";
 
 export interface MyProductAConstructProps {
   appModuleConstructProps: AppModuleAConstructProps;

@@ -1,4 +1,4 @@
-import { IValidation } from "constructs";
+import type { IValidation } from "constructs";
 
 export class Validator implements IValidation {
   private scopeType: string;

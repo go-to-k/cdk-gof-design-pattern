@@ -1,9 +1,11 @@
-import { AbstractFactory } from "./abstract-factory";
+import { AbstractFactory } from "./abstract-factory.ts";
 import { Construct } from "constructs";
-import { MyProductA, MyProductAConstructProps } from "../product-construct/my-product-a";
-import { MyProductB, MyProductBConstructProps } from "../product-construct/my-product-b";
-import { PrdProductA } from "../product-construct/prd-product-a";
-import { PrdProductB } from "../product-construct/prd-product-b";
+import { MyProductA } from "../product-construct/my-product-a.ts";
+import type { MyProductAConstructProps } from "../product-construct/my-product-a.ts";
+import { MyProductB } from "../product-construct/my-product-b.ts";
+import type { MyProductBConstructProps } from "../product-construct/my-product-b.ts";
+import { PrdProductA } from "../product-construct/prd-product-a.ts";
+import { PrdProductB } from "../product-construct/prd-product-b.ts";
 
 export class PrdFactory extends AbstractFactory {
   createProductA(

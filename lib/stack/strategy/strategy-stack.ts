@@ -1,7 +1,7 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { StrategyConfigStackProps } from "./config";
-import { Validator } from "./validator";
+import type { StrategyConfigStackProps } from "./config.ts";
+import { Validator } from "./validator.ts";
 
 export class StrategyStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: StrategyConfigStackProps) {

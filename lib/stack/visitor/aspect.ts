@@ -1,6 +1,7 @@
-import { Annotations, IAspect, Tokenization } from "aws-cdk-lib";
+import { Annotations, Tokenization } from "aws-cdk-lib";
+import type { IAspect } from "aws-cdk-lib";
 import { CfnBucket } from "aws-cdk-lib/aws-s3";
-import { IConstruct } from "constructs";
+import type { IConstruct } from "constructs";
 
 // From the official page: https://docs.aws.amazon.com/cdk/v2/guide/aspects.html
 export class BucketVersioningChecker implements IAspect {

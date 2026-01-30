@@ -16,20 +16,21 @@
     "build:singleton": "tsdown --filter singleton"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.60.0",
-    "constructs": "^10.0.0",
-    "source-map-support": "^0.5.21"
+    "aws-cdk-lib": "catalog:",
+    "constructs": "catalog:",
+    "source-map-support": "catalog:"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.115",
-    "@types/node": "24.10.9",
-    "@typescript/native-preview": "7.0.0-dev.20260124.1",
-    "aws-cdk": "2.60.0",
-    "oxfmt": "^0.26.0",
-    "oxlint": "^1.41.0",
-    "oxlint-tsgolint": "^0.11.1",
-    "tsdown": "^0.20.1",
-    "vitest": "^4"
+    "@types/aws-lambda": "catalog:",
+    "@types/node": "catalog:",
+    "@typescript/native-preview": "catalog:",
+    "aws-cdk": "catalog:",
+    "esbuild": "catalog:",
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:",
+    "oxlint-tsgolint": "catalog:",
+    "tsdown": "catalog:",
+    "vitest": "catalog:"
   },
   "engines": {
     "node": ">=24.0.0"

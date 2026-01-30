@@ -1,6 +1,6 @@
 import { Queue } from "aws-cdk-lib/aws-sqs";
 import { Construct } from "constructs";
-import { RetainDescendant } from "./retain-descendant";
+import { RetainDescendant } from "./retain-descendant.ts";
 
 export interface RetainConstructProps {}
 

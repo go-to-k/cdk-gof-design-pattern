@@ -1,5 +1,5 @@
-import { IValidation } from "constructs";
-import { TemplateMethodConfig } from "../config";
+import type { IValidation } from "constructs";
+import type { TemplateMethodConfig } from "../config.ts";
 
 export abstract class Validator implements IValidation {
   protected config: TemplateMethodConfig;

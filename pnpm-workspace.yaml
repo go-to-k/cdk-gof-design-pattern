@@ -1,0 +1,30 @@
+packages: []
+
+catalog:
+  # AWS CDK
+  aws-cdk-lib: "2.60.0"
+  aws-cdk: "2.60.0"
+  constructs: "^10.0.0"
+
+  # Runtime
+  source-map-support: "^0.5.21"
+
+  # esbuild is required for aws-cdk-lib's NodejsFunction construct.
+  # NodejsFunction internally uses esbuild to bundle Lambda function code.
+  # Without esbuild in devDependencies, CDK falls back to Docker-based bundling,
+  # which is slower and requires Docker to be installed and running.
+  esbuild: "^0.27.2"
+
+  # Type definitions
+  "@types/aws-lambda": "^8.10.115"
+  "@types/node": "24.10.9"
+
+  # TypeScript
+  "@typescript/native-preview": "7.0.0-dev.20260124.1"
+
+  # Build & Dev tools
+  tsdown: "^0.20.1"
+  vitest: "^4"
+  oxlint: "^1.41.0"
+  oxlint-tsgolint: "^0.11.1"
+  oxfmt: "^0.26.0"
