@@ -5,7 +5,7 @@ import { join } from "path";
 export interface BatchModuleBConstructProps {}
 
 export class BatchModuleB extends Construct {
-  constructor(scope: Construct, id: string, props?: BatchModuleBConstructProps) {
+  constructor(scope: Construct, id: string, _props?: BatchModuleBConstructProps) {
     super(scope, id);
 
     new NodejsFunction(this, "BatchFunctionB", {

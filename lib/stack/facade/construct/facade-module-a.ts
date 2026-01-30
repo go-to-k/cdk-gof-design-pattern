@@ -3,7 +3,7 @@ import { Construct } from "constructs";
 
 export interface FacadeModuleAConstructProps {}
 export class FacadeModuleA extends Construct {
-  constructor(scope: Construct, id: string, props?: FacadeModuleAConstructProps) {
+  constructor(scope: Construct, id: string, _props?: FacadeModuleAConstructProps) {
     super(scope, id);
 
     // Assumptions of complex and numerous resource definitions

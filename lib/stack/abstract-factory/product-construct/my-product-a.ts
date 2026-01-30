@@ -6,7 +6,7 @@ export interface MyProductAConstructProps {
 }
 
 export abstract class MyProductA extends Construct {
-  constructor(scope: Construct, id: string, props?: MyProductAConstructProps) {
+  constructor(scope: Construct, id: string, _props?: MyProductAConstructProps) {
     super(scope, id);
   }
 }

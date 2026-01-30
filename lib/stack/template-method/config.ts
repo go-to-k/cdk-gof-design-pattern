@@ -28,7 +28,6 @@ export const getTemplateMethodConfigStackProps = (
 const getTemplateMethodStackConfig = (stage: StageType): TemplateMethodConfig => {
   switch (stage) {
     case "dev":
-      stage;
       return {
         cpu: 1024,
         memoryLimitMiB: 2048,
