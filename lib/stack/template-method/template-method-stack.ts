@@ -1,8 +1,8 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { TemplateMethodConfigStackProps } from "./config";
-import { ProdValidator } from "./validator/prod-validator";
-import { DevValidator } from "./validator/dev-validator";
+import type { TemplateMethodConfigStackProps } from "./config.ts";
+import { ProdValidator } from "./validator/prod-validator.ts";
+import { DevValidator } from "./validator/dev-validator.ts";
 
 export class TemplateMethodStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: TemplateMethodConfigStackProps) {

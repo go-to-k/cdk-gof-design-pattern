@@ -1,4 +1,5 @@
-import { NodejsFunction, NodejsFunctionProps } from "aws-cdk-lib/aws-lambda-nodejs";
+import { NodejsFunction } from "aws-cdk-lib/aws-lambda-nodejs";
+import type { NodejsFunctionProps } from "aws-cdk-lib/aws-lambda-nodejs";
 import { Construct } from "constructs";
 
 export class MySingletonFunction extends NodejsFunction {

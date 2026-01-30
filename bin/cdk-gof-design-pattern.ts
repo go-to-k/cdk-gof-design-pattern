@@ -1,27 +1,27 @@
 #!/usr/bin/env node
 import "source-map-support/register";
 import * as cdk from "aws-cdk-lib";
-import { compositeConfigStackProps } from "../lib/stack/composite/config";
-import { CompositeStack } from "../lib/stack/composite/composite-stack";
-import { DecoratorStack } from "../lib/stack/decorator/decorator-stack";
-import { decoratorConfigStackProps } from "../lib/stack/decorator/config";
-import { FacadeStack } from "../lib/stack/facade/facade-stack";
-import { facadeConfigStackProps } from "../lib/stack/facade/config";
-import { AdapterStack } from "../lib/stack/adapter/adapter-stack";
-import { adapterConfigStackProps } from "../lib/stack/adapter/config";
-import { TemplateMethodStack } from "../lib/stack/template-method/template-method-stack";
-import { getTemplateMethodConfigStackProps } from "../lib/stack/template-method/config";
-import { SingletonStack } from "../lib/stack/singleton/singleton-stack";
-import { singletonConfigStackProps } from "../lib/stack/singleton/config";
-import { VisitorStack } from "../lib/stack/visitor/visitor-stack";
-import { visitorConfigStackProps } from "../lib/stack/visitor/config";
-import { BucketVersioningChecker } from "../lib/stack/visitor/aspect";
-import { StrategyStack } from "../lib/stack/strategy/strategy-stack";
-import { strategyConfigStackProps } from "../lib/stack/strategy/config";
-import { FactoryMethodStack } from "../lib/stack/factory-method/factory-method-stack";
-import { factoryMethodConfigStackProps } from "../lib/stack/factory-method/config";
-import { AbstractFactoryStack } from "../lib/stack/abstract-factory/abstract-factory-stack";
-import { getAbstractFactoryConfigStackProps } from "../lib/stack/abstract-factory/config";
+import { compositeConfigStackProps } from "../lib/stack/composite/config.ts";
+import { CompositeStack } from "../lib/stack/composite/composite-stack.ts";
+import { DecoratorStack } from "../lib/stack/decorator/decorator-stack.ts";
+import { decoratorConfigStackProps } from "../lib/stack/decorator/config.ts";
+import { FacadeStack } from "../lib/stack/facade/facade-stack.ts";
+import { facadeConfigStackProps } from "../lib/stack/facade/config.ts";
+import { AdapterStack } from "../lib/stack/adapter/adapter-stack.ts";
+import { adapterConfigStackProps } from "../lib/stack/adapter/config.ts";
+import { TemplateMethodStack } from "../lib/stack/template-method/template-method-stack.ts";
+import { getTemplateMethodConfigStackProps } from "../lib/stack/template-method/config.ts";
+import { SingletonStack } from "../lib/stack/singleton/singleton-stack.ts";
+import { singletonConfigStackProps } from "../lib/stack/singleton/config.ts";
+import { VisitorStack } from "../lib/stack/visitor/visitor-stack.ts";
+import { visitorConfigStackProps } from "../lib/stack/visitor/config.ts";
+import { BucketVersioningChecker } from "../lib/stack/visitor/aspect.ts";
+import { StrategyStack } from "../lib/stack/strategy/strategy-stack.ts";
+import { strategyConfigStackProps } from "../lib/stack/strategy/config.ts";
+import { FactoryMethodStack } from "../lib/stack/factory-method/factory-method-stack.ts";
+import { factoryMethodConfigStackProps } from "../lib/stack/factory-method/config.ts";
+import { AbstractFactoryStack } from "../lib/stack/abstract-factory/abstract-factory-stack.ts";
+import { getAbstractFactoryConfigStackProps } from "../lib/stack/abstract-factory/config.ts";
 
 const app = new cdk.App();
 

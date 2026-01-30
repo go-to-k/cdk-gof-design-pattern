@@ -1,7 +1,8 @@
 import * as cdk from "aws-cdk-lib";
-import { Construct, IConstruct } from "constructs";
-import { CompositeConfigStackProps } from "./config";
-import { RetainConstruct } from "./construct/retain-construct";
+import { Construct } from "constructs";
+import type { IConstruct } from "constructs";
+import type { CompositeConfigStackProps } from "./config.ts";
+import { RetainConstruct } from "./construct/retain-construct.ts";
 import { Queue } from "aws-cdk-lib/aws-sqs";
 
 export class CompositeStack extends cdk.Stack {

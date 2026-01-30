@@ -1,8 +1,9 @@
 import { Construct } from "constructs";
-import { MyProductA, MyProductAConstructProps } from "./my-product-a";
-import { AppModuleA } from "../component-construct/app-a";
-import { BatchModuleA } from "../component-construct/batch-a";
-import { WafModuleA } from "../component-construct/waf-a";
+import { MyProductA } from "./my-product-a.ts";
+import type { MyProductAConstructProps } from "./my-product-a.ts";
+import { AppModuleA } from "../component-construct/app-a.ts";
+import { BatchModuleA } from "../component-construct/batch-a.ts";
+import { WafModuleA } from "../component-construct/waf-a.ts";
 
 export class PrdProductA extends MyProductA {
   constructor(scope: Construct, id: string, props: MyProductAConstructProps) {

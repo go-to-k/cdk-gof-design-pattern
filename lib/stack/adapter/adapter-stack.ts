@@ -1,7 +1,7 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { AdapterConfigStackProps } from "./config";
-import { BucketAdapter } from "./bucket-adapter";
+import type { AdapterConfigStackProps } from "./config.ts";
+import { BucketAdapter } from "./bucket-adapter.ts";
 import { AnyPrincipal, Effect, PolicyStatement } from "aws-cdk-lib/aws-iam";
 
 export class AdapterStack extends cdk.Stack {

@@ -1,4 +1,4 @@
-import { StackProps } from "aws-cdk-lib";
+import type { StackProps } from "aws-cdk-lib";
 
 export interface AbstractFactoryConfig {
   memorySize: number;

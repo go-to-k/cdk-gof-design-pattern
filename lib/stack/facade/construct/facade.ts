@@ -1,6 +1,6 @@
 import { Construct } from "constructs";
-import { FacadeModuleA } from "./facade-module-a";
-import { FacadeModuleB } from "./facade-module-b";
+import { FacadeModuleA } from "./facade-module-a.ts";
+import { FacadeModuleB } from "./facade-module-b.ts";
 
 export interface FacadeConstructProps {}
 export class Facade extends Construct {

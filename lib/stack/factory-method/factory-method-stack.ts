@@ -1,8 +1,8 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { FactoryMethodConfigStackProps } from "./config";
-import { RetainQueueCreator } from "./retain-queue-creator";
-import { RetainBucketCreator } from "./retain-bucket-creator";
+import type { FactoryMethodConfigStackProps } from "./config.ts";
+import { RetainQueueCreator } from "./retain-queue-creator.ts";
+import { RetainBucketCreator } from "./retain-bucket-creator.ts";
 
 export class FactoryMethodStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: FactoryMethodConfigStackProps) {

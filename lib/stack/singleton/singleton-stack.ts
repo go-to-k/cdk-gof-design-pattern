@@ -1,9 +1,9 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { SingletonConfigStackProps } from "./config";
+import type { SingletonConfigStackProps } from "./config.ts";
 import { Code, Runtime, SingletonFunction } from "aws-cdk-lib/aws-lambda";
 import { join } from "path";
-import { MySingletonFunction } from "./my-singleton-function";
+import { MySingletonFunction } from "./my-singleton-function.ts";
 
 export class SingletonStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: SingletonConfigStackProps) {

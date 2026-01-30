@@ -1,6 +1,8 @@
 import { Construct } from "constructs";
-import { MyProductA, MyProductAConstructProps } from "../product-construct/my-product-a";
-import { MyProductB, MyProductBConstructProps } from "../product-construct/my-product-b";
+import { MyProductA } from "../product-construct/my-product-a.ts";
+import type { MyProductAConstructProps } from "../product-construct/my-product-a.ts";
+import { MyProductB } from "../product-construct/my-product-b.ts";
+import type { MyProductBConstructProps } from "../product-construct/my-product-b.ts";
 
 export abstract class AbstractFactory {
   abstract createProductA(
