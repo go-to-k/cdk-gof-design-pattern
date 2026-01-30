@@ -26,7 +26,7 @@ export class SingletonStack extends cdk.Stack {
   private createLambda(suffix: string): SingletonFunction {
     return new SingletonFunction(this, `Singleton${suffix}`, {
       uuid: "ff5cb24a-ea95-11ed-a05b-0242ac120003",
-      code: Code.fromAsset(join(__dirname, "./lambda")),
+      code: Code.fromAsset(join(import.meta.dirname, "./lambda")),
       handler: "index.handler",
       runtime: Runtime.NODEJS_18_X,
     });
@@ -34,7 +34,7 @@ export class SingletonStack extends cdk.Stack {
 
   private createMyLambda(suffix: string): MySingletonFunction {
     return MySingletonFunction.getInstance(this, `MySingleton${suffix}`, {
-      entry: join(__dirname, "./lambda/index.ts"),
+      entry: join(import.meta.dirname, "./lambda/index.ts"),
       bundling: {
         forceDockerBundling: false,
       },

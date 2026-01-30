@@ -9,7 +9,7 @@ export class BatchModuleA extends Construct {
     super(scope, id);
 
     new NodejsFunction(this, "BatchFunctionA", {
-      entry: join(__dirname, "../lambda/batch.ts"),
+      entry: join(import.meta.dirname, "../lambda/batch.ts"),
       bundling: {
         forceDockerBundling: false,
       },

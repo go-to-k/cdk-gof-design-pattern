@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import "source-map-support/register";
 import * as cdk from "aws-cdk-lib";
 import { compositeConfigStackProps } from "../lib/stack/composite/config.ts";
 import { CompositeStack } from "../lib/stack/composite/composite-stack.ts";

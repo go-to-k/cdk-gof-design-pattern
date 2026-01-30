@@ -11,7 +11,7 @@ export class AppModuleB extends Construct {
     super(scope, id);
 
     new NodejsFunction(this, "AppFunctionB1", {
-      entry: join(__dirname, "../lambda/app.ts"),
+      entry: join(import.meta.dirname, "../lambda/app.ts"),
       bundling: {
         forceDockerBundling: false,
       },
